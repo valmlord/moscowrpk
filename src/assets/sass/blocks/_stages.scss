@@ -1,0 +1,55 @@
+.stages {
+    padding: 60px 0;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        max-width: 23%;
+    }
+
+    &__progress {
+        font-family: 'Comfortaa', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        color: $custom-grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: $custom-orange;
+        box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.1);
+
+        hr {
+            position: absolute;
+            width: 250px;
+            top: 24px;
+            left: 48px;
+            height: 2px;
+            border: none;
+            background: $custom-orange;
+        }
+    }
+
+    &__title {
+        font-family: 'Comfortaa', sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    &__description {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+}
