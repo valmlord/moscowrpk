@@ -61,7 +61,6 @@ gulp.task("html", function () {
     .pipe(gulp.dest("dist/"));
 });
 
-
 gulp.task("fonts", function () {
   return gulp.src("src/assets/fonts/**/*").pipe(gulp.dest("dist/assets/fonts"));
 });
@@ -89,25 +88,27 @@ gulp.task("build-js", () => {
         watch: false,
         devtool: "source-map",
         module: {
-          rules: [{
-            test: /\.m?js$/,
-            exclude: /(node_modules|bower_components)/,
-            use: {
-              loader: "babel-loader",
-              options: {
-                presets: [
-                  [
-                    "@babel/preset-env",
-                    {
-                      debug: true,
-                      corejs: 3,
-                      useBuiltIns: "usage",
-                    },
+          rules: [
+            {
+              test: /\.m?js$/,
+              exclude: /(node_modules|bower_components)/,
+              use: {
+                loader: "babel-loader",
+                options: {
+                  presets: [
+                    [
+                      "@babel/preset-env",
+                      {
+                        debug: true,
+                        corejs: 3,
+                        useBuiltIns: "usage",
+                      },
+                    ],
                   ],
-                ],
+                },
               },
             },
-          }, ],
+          ],
         },
       })
     )
