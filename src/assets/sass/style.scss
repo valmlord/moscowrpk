@@ -1,0 +1,64 @@
+@import "base/variables";
+@import "libs/fonts";
+@import "libs/fotorama";
+// Basic
+
+* {
+  font-family: "Gilroy", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    outline: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// Content width
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+@import "blocks/header";
+@import "blocks/quiz";
+@import "blocks/buttons";
+@import "blocks/services";
+@import "blocks/title";
+@import "blocks/includes";
+@import "blocks/portfolio";
+@import "blocks/brands";
+@import "blocks/reviews";
+@import "blocks/faq";
+@import "blocks/gift";
+@import "blocks/advantages";
+@import "blocks/audit";
+@import "blocks/messengers";
+@import "blocks/footer";
+
+// @import "blocks/promo";
+// @import "blocks/prices";
+
+// @import "base/animations";
+// @import "libs/sweetalert";
+
+// @import "media/test_media";
+// @import "media/header_media";
+// @import "media/buttons_media";
+// @import "media/quiz_media";
