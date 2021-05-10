@@ -1,0 +1,65 @@
+.services {
+  padding: 40px 0;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  &__item {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    background: rgba(196, 196, 196, 0.25);
+    //box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: $custom-white;
+    background: $custom-grey;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  &__description {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px 0;
+  }
+
+  &__prices {
+    text-align: center;
+    padding: 20px 50px;
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .big {
+      font-size: 18px;
+    }
+  }
+}
+
+.services::before {
+  content: url("../img/services/chair.png");
+  position: absolute;
+  width: 550px;
+  top: -290px;
+  left: 0;
+  z-index: 1;
+}

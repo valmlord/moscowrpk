@@ -1,117 +1,144 @@
 .header {
-    &__logo {
-        max-width: 200px;
-        padding: 5px 0;
+  .menu {
+    &__list {
+      display: flex;
+      justify-content: space-between;
     }
 
-    &__line {
-        background-color: $main-color;
-        opacity: 0.4;
-        height: 1px;
-        border: none;
-    }
+    &__link {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 20px 0;
 
-    &__description {
-        font-family: 'Comfortaa', sans-serif;
-        font-size: 14px;
+      &:last-child {
+        flex-basis: 35%;
+        text-align: right;
+        margin: 0;
+      }
+
+      a {
         color: $custom-black;
+        text-decoration: none;
+        transition: 0.6s all;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+  &__promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 99999;
+    background: $custom-grey;
+    opacity: 0.9;
+  }
+  &__logo {
+    max-width: 218px;
+    padding: 5px 0;
+  }
+
+  &__line {
+    background-color: $main-color;
+    opacity: 0.4;
+    height: 1px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .note {
+    display: flex;
+    span {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    &__item {
+      display: flex;
+      margin-right: 20px;
     }
 
-    .menu {
-        &__list {
-            display: flex;
-            justify-content: space-between;
-        }
+    &__icon {
+      margin-top: -10px;
+      padding-right: 10px;
+    }
+  }
 
-        &__link {
-            font-size: 16px;
-            font-weight: 600;
-            padding: 20px 0;
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
-            &:last-child {
-                flex-basis: 35%;
-                text-align: right;
-                margin: 0;
-            }
+    &__link {
+      color: $custom-black;
+      transition: 0.3s all;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: 500;
 
-            a {
-                color: $custom-black;
-                text-decoration: none;
-                transition: 0.6s all;
-
-                &:hover {
-                    color: $main-color;
-                }
-            }
-        }
+      &:hover {
+        color: $main-color;
+      }
     }
 
-    .submenu {
-        background: $custom-orange;
-
-        &__list {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 0;
-        }
-
-        &__link {
-            font-family: "Comfortaa", sans-serif;
-            font-weight: bold;
-            font-size: 16px;
-
-            a {
-                transition: 0.6s all;
-                color: $custom-grey;
-
-                &:hover {
-                    color: $custom-black;
-                }
-            }
-        }
+    &__workhours {
+      color: $custom-black;
+      font-size: 14px;
     }
 
-    .hamburger {
-        display: none;
+    &__mail {
+      top: -5px;
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        color: $custom-black;
+      }
+
+      img {
+        top: 8px;
+      }
+    }
+  }
+
+  .submenu {
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
     }
 
-    .sticky {
-        background-color: $custom-orange;
-    }
+    &__link {
+      font-family: "Gilroy", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
 
-    .phone {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+      a {
+        transition: 0.6s all;
+        color: $custom-black;
 
-        &__link {
-            color: $custom-black;
-            transition: 0.3s all;
-            text-decoration: none;
-            font-size: 22px;
-            font-weight: 600;
+        text-transform: uppercase;
 
-            &:hover {
-                color: $main-color;
-            }
+        &:hover {
+          color: $main-color;
         }
-
-        &__workhours {
-            color: $custom-black;
-            font-size: 12px;
-            font-family: "Comfortaa", sans-serif;
-        }
+      }
     }
+  }
 
-    &__promo {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 0;
+  .hamburger {
+    display: none;
+  }
 
-        span {
-            font-size: 12px;
-            color: $custom-black;
-        }
-    }
+  .sticky {
+    background-color: $custom-grey;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    background: rgba(196, 196, 196, 0.25);
+    //box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    opacity: 0.9;
+  }
 }

@@ -1,71 +1,38 @@
 .btn {
-    height: 45px;
-    width: 200px;
+  height: 45px;
+  width: 180px;
+  border: 1px solid $main-color;
+  border-radius: 10px;
+  background-color: $main-color;
+  color: $custom-white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 2.5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    background: #c10202;
+    color: $custom-white;
+    transition: 0.3s;
     border: 1px solid $main-color;
-    border-radius: 10px;
-    background-color: $custom-grey;
-    color: $main-color;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
+  }
 
-    &:hover {
-        background: $main-color;
-        color: $custom-grey;
-        transition: 0.6s;
-        border: 1px solid $main-color;
-    }
+  &:active {
+    background-color: #530101;
+  }
 
-    &:active {
-        background-color: $main-color;
-        border: 1px solid $custom-orange;
-    }
-
-    &-main {
-        width: 240px;
-        height: 50px;
-        margin-left: 30px;
-        background: $custom-orange;
-        font-size: 18px;
-        color: $custom-white;
-        box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.3);
-        border: none;
-
-        &:active {
-            background-color: $main-color;
-        }
-    }
-
-    &-proposal {
-        text-align: center;
-        line-height: 2.8;
-        margin-top: 30px;
-    }
-
-    &-price {
-        margin: 30px auto;
-        display: block;
-    }
-}
-
-.red-btn {
-
-    &:active,
-    &:hover {
-        background-color: $custom-red;
-    }
-
-    color: $custom-red;
-    border-color: $custom-red;
-}
-
-.orange-btn {
-
-    &:active,
-    &:hover {
-        background-color: $custom-orange;
-    }
-
-    color: $custom-orange;
-    border-color: $custom-orange;
+  &-services {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  &-estimate {
+    margin-top: 20px;
+  }
+  &-audit {
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+  }
 }

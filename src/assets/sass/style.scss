@@ -1,138 +1,64 @@
 @import "base/variables";
 @import "libs/fonts";
-
+@import "libs/fotorama";
 // Basic
 
 * {
-    font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    outline: none;
+  }
+
+  ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    position: relative;
-    box-sizing: border-box;
+  }
 
-    a,
-    button,
-    input,
-    textarea,
-    select {
-        outline: none
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0
-    }
-
-    a {
-        text-decoration: none
-    }
+  a {
+    text-decoration: none;
+  }
 }
 
 // Content width
 
 .container {
-    margin: 0 auto;
-    max-width: 1140px;
-    padding: 0 1%;
+  margin: 0 auto;
+  max-width: 1140px;
 }
 
 @import "blocks/header";
 @import "blocks/quiz";
 @import "blocks/buttons";
-@import "blocks/test";
-@import "blocks/portfolio";
-@import "blocks/reviews";
+@import "blocks/services";
 @import "blocks/title";
-@import "blocks/stages";
+@import "blocks/includes";
+@import "blocks/portfolio";
+@import "blocks/brands";
+@import "blocks/reviews";
 @import "blocks/faq";
-@import "blocks/promo";
-@import "blocks/prices";
+@import "blocks/gift";
+@import "blocks/advantages";
+@import "blocks/audit";
+@import "blocks/messengers";
+@import "blocks/footer";
 
-@import "base/animations";
-@import "libs/sweetalert";
+// @import "blocks/promo";
+// @import "blocks/prices";
 
-@import "media/test_media";
-@import "media/header_media";
-@import "media/buttons_media";
-@import "media/quiz_media";
+// @import "base/animations";
+// @import "libs/sweetalert";
 
-// .figures {
-//     margin-top: -70px;
-// }
-
-// .figures ul {
-//     background: $main-color;
-//     color: #ffffff;
-//     display: -webkit-box;
-//     /* OLD - iOS 6-, Safari 3.1-6 */
-//     display: -moz-box;
-//     /* OLD - Firefox 19- (buggy but mostly works) */
-//     display: -ms-flexbox;
-//     /* TWEENER - IE 10 */
-//     display: -webkit-flex;
-//     /* NEW - Chrome */
-//     display: flex;
-//     justify-content: space-between;
-//     flex-wrap: wrap;
-//     padding: 13px 0 24px;
-//     text-transform: uppercase;
-// }
-
-// .figures ul li {
-//     font-family: "OpenSansLight";
-//     font-size: 72px;
-//     text-align: center;
-//     padding: 0 70px 0 67px;
-//     position: relative;
-// }
-
-// .figures ul li .fig_num {
-//     float: left;
-// }
-
-// .figures ul li .fig_top {
-//     float: left;
-//     font-family: "OpenSans";
-//     font-size: 22px;
-//     text-transform: uppercase;
-//     font-weight: normal;
-//     margin-top: 9px;
-//     margin-left: 4px;
-// }
-
-// .figures ul li .fig_top_plus {
-//     float: left;
-//     font-family: "OpenSansLight";
-//     font-weight: normal;
-//     font-size: 42px;
-//     margin-top: 3px;
-// }
-
-// .figures ul li strong {
-//     font-family: "OpenSans";
-//     font-size: 22px;
-//     text-transform: uppercase;
-//     font-weight: normal;
-//     margin-top: 8px;
-// }
-
-// .figures ul li p {
-//     font-family: "OpenSansSemibold";
-//     font-size: 22px;
-//     padding-top: 9px;
-// }
-
-// .figures ul li:before {
-//     content: "";
-//     position: absolute;
-//     top: 17px;
-//     right: 0;
-//     width: 1px;
-//     height: 80px;
-//     background: #ffffff;
-// }
-
-// .figures ul li:last-child:before {
-//     display: none;
-// }
+// @import "media/test_media";
+// @import "media/header_media";
+// @import "media/buttons_media";
+// @import "media/quiz_media";

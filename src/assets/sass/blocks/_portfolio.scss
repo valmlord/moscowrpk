@@ -1,124 +1,195 @@
 .portfolio {
-    padding: 60px 0;
+  padding: 40px 0;
 
-    &__wrapper {
-        top: 80px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tabs {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  &__tab {
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: $custom-grey;
+    text-align: center;
+    margin-left: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: $custom-white;
+    font-weight: bold;
+
+    &:first-child {
+      margin-left: 20px;
     }
 
-    &__content {
-        display: flex;
-        justify-content: space-between;
+    &_active {
+      background: $main-color;
+      transition: 0.3s all ease-in;
     }
 
-    &__tabs {
-        display: flex;
-        margin-left: 15px;
+    a {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
     }
 
-    &__tab {
-        width: 70px;
-        height: 25px;
-        border: none;
-        border-radius: 10px;
-        background-color: $custom-orange;
-        text-align: center;
-        margin-left: 30px;
-
-        &:first-child {
-            margin-left: 0;
-        }
-
-        &_active {
-            background: $main-color;
-            transition: 0.3s all ease-in;
-        }
-
-        a {
-            color: $custom-grey;
-            font-weight: 600;
-            cursor: pointer;
-        }
-
-        &:before {
-            content: '';
-            position: absolute;
-            z-index: -1;
-            background: url('../../assets/icons/portfolio/first_icon.png');
-            width: 80px;
-            height: 70px;
-            left: -15px;
-            top: -50px;
-            border-radius: 10px;
-        }
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      background: url("../../assets/icons/portfolio/first_icon.png") center /
+        cover;
+      border-radius: 10px;
+      width: 80px;
+      height: 70px;
+      left: -15px;
+      top: -50px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
     }
+  }
 
-    &__slider {
-        width: 65%;
-        border-radius: 10px;
-        border: none;
-        padding: 30px 0;
+  .portfolio__tab-2 {
+    &:before {
+      background: url("../../assets/icons/portfolio/second_icon.png") center /
+        cover;
+      width: 80px;
     }
+  }
 
-    &__image {
-        border-radius: 10px;
+  .portfolio__tab-3 {
+    &:before {
+      background: url("../../assets/icons/portfolio/third_icon.png") center /
+        cover;
+      width: 80px;
+      border-radius: 10px;
     }
+  }
+
+  .portfolio__tab-4 {
+    &:before {
+      background: url("../../assets/icons/portfolio/fouth_icon.png") center /
+        cover;
+      width: 80px;
+      border-radius: 10px;
+    }
+  }
+  .portfolio__tab-5 {
+    &:before {
+      background: url("../../assets/icons/portfolio/five_icon.png") center /
+        cover;
+      width: 80px;
+      border-radius: 10px;
+    }
+  }
+  .portfolio__tab-6 {
+    &:before {
+      background: url("../../assets/icons/portfolio/six_icon.png") center /
+        cover;
+      width: 80px;
+      border-radius: 10px;
+    }
+  }
 }
 
 .fotorama {
-    width: 62%;
-    margin-top: 30px;
+  width: 62%;
+  margin-top: 20px;
+  padding: 0;
+  min-height: 530px;
+  &__nav {
+    &__frame {
+      margin-top: 20px;
+      margin-right: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &__trumb {
+    border-radius: 10px;
+    &-border {
+      border: 1px solid $main-color;
+    }
+  }
+}
+.fotorama__stage {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .appartment {
-    &__description {
-        width: 35%;
-        background-color: #f0f0f0;
-        border-radius: 10px;
-        margin-top: -75px;
-    }
+  &__description {
+    width: 35%;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    margin-top: -75px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-height: 710px;
+    background: rgba(196, 196, 196, 0.25);
+    //box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    z-index: 4;
+  }
 
-    &__address {
-        padding: 30px 15px 0px 30px;
-        //font-family: 'Comfortaa', sans-serif;
-        font-size: 23px;
-        font-weight: bold;
-    }
+  &__address {
+    padding: 20px 40px;
+    font-size: 23px;
 
-    &__info {
-        display: flex;
-        flex-direction: column;
-        padding: 10px 30px;
-        font-size: 20px;
-        line-height: 1.3;
-
-        span {
-            &:first-child {
-                font-weight: 600;
-            }
-        }
+    .bold {
+      font-weight: bold;
     }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+    font-size: 22px;
+    line-height: 1.3;
+
+    span {
+      &:first-child {
+        font-weight: 600;
+      }
+    }
+  }
 }
 
 .proposal {
-    background-color: #ffffff;
-    text-align: center;
-    width: 90%;
-    border-radius: 10px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px auto;
+  background-color: rgba(153, 153, 153, 0.6);
+  text-align: center;
+  width: 90%;
+  border-radius: 10px;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
 
-    &__title {
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 600;
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: $custom-white;
 
-        span {
-            font-size: 12px;
-            font-weight: 500;
-            line-height: 1;
-        }
+    span {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 2;
     }
+  }
+}
+
+.portfolio::before {
+  content: url("../img/portfolio/sofa.png");
+  position: absolute;
+  top: -100px;
+  z-index: -2;
 }

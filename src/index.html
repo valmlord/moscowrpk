@@ -1,1915 +1,1502 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/icons/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
     <title>MoscowRPK</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- HEADER -->
 
     <header class="header">
+      <div class="sticky">
         <div class="container">
-            <nav class="header__menu">
-                <ul class="menu__list">
-                    <li class="menu__link"><a href="javascript:void(0);">О компании</a></li>
-                    <li class="menu__link"><a href="javascript:void(0);">Преимущества</a></li>
-                    <li class="menu__link"><a href="javascript:void(0);">Отзывы и рекомендации</a></li>
-                    <li class="menu__link"><a href="javascript:void(0);">Примеры работ</a></li>
-                    <li class="menu__link"><a href="javascript:void(0);">Новости</a></li>
-                    <li class="menu__link"><a href="javascript:void(0);">Контактная информация</a></li>
-                </ul>
-            </nav>
-            <hr class="header__line">
-            <div class="header__promo">
-                <img class="header__logo" src="assets/icons/header/logo.svg" alt="MoscowRPK__logo">
-                <div class="header__description">Ремонт любой сложности в Москве и МО</div>
-                <div class="header__promo phone">
-                    <div class="phone__workhours">Работаем без выходных</div>
-                    <a class="phone__link" href="tel:+79774345940">+7 (977) 434-59-40</a>
-                </div>
-                <button class="btn btn-callback">Заказать звонок</button>
+          <nav class="header__menu">
+            <ul class="submenu__list">
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Главная</a>
+              </li>
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Услуги</a>
+              </li>
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Портфолио</a>
+              </li>
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Цены</a>
+              </li>
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Отзывы</a>
+              </li>
+              <li class="submenu__link">
+                <a href="javascript:void(0);">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <!--         <nav class="header__menu">
+          <ul class="menu__list">
+            <li class="menu__link">
+              <a href="javascript:void(0);">О компании</a>
+            </li>
+            <li class="menu__link">
+              <a href="javascript:void(0);">Преимущества</a>
+            </li>
+            <li class="menu__link">
+              <a href="javascript:void(0);">Отзывы и рекомендации</a>
+            </li>
+            <li class="menu__link">
+              <a href="javascript:void(0);">Примеры работ</a>
+            </li>
+            <li class="menu__link">
+              <a href="javascript:void(0);">Новости</a>
+            </li>
+            <li class="menu__link">
+              <a href="javascript:void(0);">Контактная информация</a>
+            </li>
+          </ul>
+        </nav> -->
+
+        <!-- <hr class="header__line" /> -->
+
+        <div class="header__promo">
+          <img
+            class="header__logo"
+            src="assets/icons/header/logo.svg"
+            alt="MoscowRPK__logo"
+          />
+          <div class="header__note note">
+            <div class="note__item">
+              <img
+                src="assets/icons/header/arrow.svg"
+                alt="arrow_icon"
+                class="note__icon"
+              />
+              <div class="note__description">
+                <span>23 объекта</span><br />в работе
+              </div>
             </div>
-        </div>
-        <div class="sticky">
-            <div class="container">
-                <nav class="header__menu">
-                    <ul class="submenu__list">
-                        <li class="submenu__link"><a href="javascript:void(0);">Ремонт квартиры</a></li>
-                        <li class="submenu__link"><a href="javascript:void(0);">Ремонт санузла</a></li>
-                        <li class="submenu__link"><a href="javascript:void(0);">Ремонт кухни</a></li>
-                        <li class="submenu__link"><a href="javascript:void(0);">Ремонт комнаты</a></li>
-                        <li class="submenu__link"><a href="javascript:void(0);">Ремонт офиса</a></li>
-                        <li class="submenu__link"><a href="javascript:void(0);">Отделочные работы</a></li>
-                    </ul>
-                </nav>
+
+            <div class="note__item">
+              <img
+                src="assets/icons/header/arrow.svg"
+                alt="arrow_icon"
+                class="note__icon"
+              />
+              <div class="header__description">
+                <span>12 лет</span><br />на рынке
+              </div>
             </div>
+
+            <div class="note__item">
+              <img
+                src="assets/icons/header/arrow.svg"
+                alt="arrow_icon"
+                class="note__icon"
+              />
+              <div class="note__description">
+                <span>74 ремонта</span><br />сделано на 2020г
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-callback">Обратный звонок</button>
+
+          <div class="header__promo contacts">
+            <div class="contacts__workhours">Ежедневно с 9:00 до 22:00</div>
+            <a class="contacts__link" href="tel:+79774345940"
+              >+7 (977) 434-59-40</a
+            >
+            <div class="contacts__mail">
+              <img src="assets/icons/header/mail.svg" alt="mail_icon" />
+              <a href="mailto:info@moscowrpk.ru">info@moscowrpk.ru</a>
+            </div>
+          </div>
         </div>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </header>
 
-    <!-- QUIZ START-->
+    <!-- QUIZ-->
 
     <section class="quiz">
-        <div class="container">
-            <div class="quiz__promo">
-                <h1 class="quiz__title">
-                    Пройдите тест за 1 минуту<br> и узнайте стоимость ремонта
-                    <span>прямо сейчас</span>
-                </h1>
-                <button data-modal='quiz' class="btn btn-main">Пройти тест</button>
-            </div>
-            <div class="quiz__description bonus">
-                <h2 class="bonus__subtitle">
-                    После прохождения теста Вы получите:
-                </h2>
-                <div class="bonus__wrapper">
-                    <div class="bonus__first">
-                        <div>
-                            <img src="assets/img/header/bonus.png" alt="estimate">
-                        </div>
-                        <span>
-                            <span>Смету</span>
-                            <br>по ремонту и стоимости<br> материалов
-                        </span>
-                    </div>
-                    <div class="bonus__second">
-                        <div>
-                            <img src="assets/img/header/bonus_2.png" alt="gift">
-                        </div>
-                        <span>
-                            <span>Подарок</span>
-                            <br>1 из 3 подарков на выбор<br> за прохождение теста
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class='promo__numbers numbers'>
-                <ul class='numbers__items'>
-                    <li>
-                        <div class='numbers__item rl'>
-                            <div class='numbers__value' id="dynamic-number">0</div>
-                            <sup class='numbers__descr'>ЛЕТ</sup>
-                        </div>
-                        <p>ОПЫТА</p>
-                    </li>
-                    <li>
-                        <div class='numbers__item rl'>
-                            <div class='numbers__value' id="dynamic-number2">0</div>
-                            <sup class='numbers__descr'>+</sup>
-                        </div>
-                        <p>ОБЪЕКТОВ</p>
-                    </li>
-                    <li>
-                        <div class='numbers__item rl'>
-                            <div class='numbers__value' id="dynamic-number3">0</div>
-                            <sup class='numbers__descr'>+</sup>
-                        </div>
-                        <p>БРИГАД</p>
-                    </li>
-                    <li>
-                        <div class='numbers__item'>
-                            <div class='numbers__value' id="dynamic-number4">0</div>
-                            <sup class='numbers__descr'>МЕС</sup>
-                        </div>
-                        <p>ГАРАНТИИ</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+      <div class="container">
+        <h1 class="quiz__title">
+          Ремонт квартиры
+          <span class="cursive">«под ключ»</span> в Москве<br />
+          <span class="cursive">с гарантией</span> соблюдения сроков<br />
+          и отсутствия внеплановых расходов<br />
+          <span class="cursive">без предоплаты</span>
+        </h1>
+      </div>
     </section>
 
-    <!-- PROMO -->
+    <!-- SERVICES -->
 
-    <section class="promo" id="promo">
-        <div class="container">
-            <h2 class="title">Основные типы ремонтов</h2>
-            <p class="promo__description">
-                Заказать профессиональный ремонт квартир в Москве и МО у нас означает выбор надёжной компании с большим
-                опытом. Мы работаем во всех районах Москвы и близ расположенных пригородах. Наши бригады готовы
-                выполнить отделку вашей квартиры под ключ и ремонт отдельных комнат в квартире. Одинаково качественно мы
-                реализуем ремонтные задачи в новостройке и старом фонде. Работаем с разными бюджетами и проектами
-                разного уровня – от эконом до квартир премиум-класса. Обращаясь к нам за ремонтом, вы получите
-                бесплатную консультацию и индивидуальный расчёт сметы, выгодные скидки на отделочные материалы и
-                сопутствующие услуги, помощь дизайнеров и полный комплекс услуг по ремонту и отделке. Мы придерживаемся
-                прозрачности в ценовой политике и открытости во взаимоотношениях с клиентами. Мы обладаем значительными
-                ресурсами и опытом, чтобы гарантировать качество, сроки и низкие цены на ремонт.
+    <section class="services">
+      <div class="container">
+        <h3 class="caption">УСЛУГИ</h3>
+        <h2 class="title">Основные типы ремонтов</h2>
+        <div class="services__items">
+          <div class="services__item hvr-grow">
+            <h4 class="services__title">Косметический ремонт</h4>
+            <p class="services__description">
+              Для продажи или сдачи в аренду.<br />
+              Для обновления ремонта
             </p>
+            <img src="assets/img/services/cosmetic.jpg" alt="cosmetic_img" />
+            <p class="services__prices">
+              <span class="big"
+                >Цена работ <span class="bold">от 1500 руб./м2.</span>
+              </span>
+              Цена черновых материалов
+              <br /><span class="bold">от 500 руб./м2</span>
+            </p>
+            <button class="btn btn-services">Подробнее</button>
+          </div>
+          <div class="services__item hvr-grow">
+            <h4 class="services__title">Капитальный ремонт</h4>
+            <p class="services__description">
+              Для ремонта в новостройке.<br />
+              Для ремонта в доме или коттедже
+            </p>
+            <img src="assets/img/services/capital.jpg" alt="capital_img" />
+            <p class="services__prices">
+              <span class="big">
+                Цена работ <span class="bold">от 4900 руб./м2.</span></span
+              >
+              Цена черновых материалов
+              <br /><span class="bold">от 1500 руб./м2</span>
+            </p>
+            <button class="btn btn-services">Подробнее</button>
+          </div>
+          <div class="services__item hvr-grow">
+            <h4 class="services__title">Евроремонт</h4>
+            <p class="services__description">
+              Для роскошной жизни.<br />
+              Для ремонта по дизайн-проекту
+            </p>
+            <img src="assets/img/services/euro.jpg" alt="euro_img" />
+            <p class="services__prices">
+              <span class="big">
+                Цена работ <span class="bold">от 6500 руб./м2.</span></span
+              >
+              Цена черновых материалов
+              <br /><span class="bold">от 2500 руб./м2</span>
+            </p>
+            <button class="btn btn-services">Подробнее</button>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- PRICES -->
+    <!-- INCLUDES -->
 
-    <section class="prices" id="prices">
-        <div class="container">
-            <h2 class="title">Гибкая система цен позволяет подобрать вариант ремонта под любой бюджет</h2>
-            <div class="prices__items">
-                <div class="prices__item hvr-grow">
-                    <div class="prices__title">
-                        <span>Косметический</span> ремонт
-                    </div>
+    <section class="includes">
+      <div class="container">
+        <h3 class="caption">ПЕРЕЧЕНЬ РАБОТ</h3>
+        <h2 class="title">Что входит в наши услуги</h2>
 
-                    <ul class="prices__list">
-                        <li class="prices__services">Полы</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Демонтаж старого покрытия
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Укладка подложки
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж напольного покрытия
-                        </li>
-                        <li class="prices__services">Стены</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Устранение мелких дефектов
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Грунтовка поверхности
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Покраска стен
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Поклейка обоев
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Декоративная штукатурка
-                        </li>
-                        <li class="prices__services">Потолки</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж натяжного потолка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Частичная шпаклевка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Покраска потолка
-                        </li>
-                        <li class="prices__services">Сантехника</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж унитаза
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж смесителя
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж раковины
-                        </li>
-                        <li class="prices__services">Электрика</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж осветительных приборов
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж розеток
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_red.svg" alt="icon" />Монтаж СКУШ
-                        </li>
-                    </ul>
-                    <div class="prices__value">
-                        <span><b>от 1 890</b> руб./м<sup>2</sup></span>
-                    </div>
-                    <button class="btn btn-price">Заказать ремонт</button>
-                </div>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="2" class="left width">Наименование работ</td>
+              <td>Косметический</td>
+              <td>Капитальный</td>
+              <td>Элитный</td>
+            </tr>
+          </thead>
+        </table>
 
-                <div class="prices__item hvr-grow">
-                    <div class="prices__title">
-                        <span class="purple-title">Капитальный</span> ремонт
-                    </div>
-                    <ul class="prices__list">
-                        <li class="prices__services">Демонтажные работы</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Демонтаж перегородок и
-                            стен
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Демонтаж инженерных сетей
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Демонтаж старой отделки
-                        </li>
-                        <li class="prices__services">Монтажные работы</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Монтаж инженерных сетей
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Устройство стяжки
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Выравнивание пола
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Сборка конструкций
-                        </li>
-                        <li class="prices__services">Полы, стены, потолок</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Укладка напольных покрытий
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Реставрация паркетной
-                            доски
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Оклейка стен обоями
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Нанесение декоративной
-                            штукатурки
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Отделка стен камнем
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Устройство многоуровневого
-                            потолка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Монтаж натяжного потолка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Покраска стен
-                        </li>
-                        <li class="prices__services">Сантехника</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Установка душевой кабины
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Монтаж беде, унитаза
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Монтаж раковины
-                        </li>
-                        <li class="prices__services">Электрика</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Прокладка кабеля
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Установка электрощитка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_purple.svg" alt="icon" />Монтаж осветительных
-                            приборов
-                        </li>
-                    </ul>
-
-                    <div class="prices__value">
-                        <span><b>от 6 450</b> руб./м<sup>2</sup></span>
-                    </div>
-
-                    <button class="btn btn-price">Заказать ремонт</button>
-                </div>
-
-                <div class="prices__item hvr-grow">
-                    <div class="prices__title">
-                        по <span>Дизайн-проекту</span>
-                    </div>
-                    <ul class="prices__list">
-                        <li class="prices__services">Дизайн-проект</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Обмерочный план
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />План пола, потолка с
-                            раскладкой и указанием отделочных материалов
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Планировочное решение
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />3D Визуализация
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Схемы размещения
-                            сантехнического оборудования, осветительных приборов, розеток и выключателей
-                        </li>
-                        <li class="prices__services">Весь спектр работ</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Демонтаж всей старой
-                            отделки
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Демонтаж перегородок
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Монтаж стен, перегородок
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Штробление для проводки
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Разводка и монтаж
-                            инженерных
-                            коммуникаций
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Выравнивание поверхностей,
-                            штукатурка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Установка окон, дверей
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Декоративная отделка
-                            помещения
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Монтаж натяжного потолка
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Монтаж сантехники
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Монтаж розеток,
-                            выключателей
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Подключение осветительных
-                            приборов
-                        </li>
-                        <li class="prices__services">Подбор и доставка</li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Консультация по материалам
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Подбор материалов
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Закупка материалов
-                        </li>
-                        <li>
-                            <img src="assets/icons/prices/prices_orange.svg" alt="icon" />Доставка на обьект
-                        </li>
-                    </ul>
-
-                    <div class="prices__value">
-                        <span><b>от 9 500</b> руб./м<sup>2</sup></span>
-                    </div>
-                    <button class="btn btn-price">Заказать ремонт</button>
-                </div>
-            </div>
-        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="2" class="left">
+                Закупка материалов, демонтаж, уборка, вывоз мусора
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Шпаклевка стен и потолка</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Покраска стен и потолка</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Поклейка обоев</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Укладка ламината, линолеума</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Замена розеток и выключателей</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Замена межкомнатных дверей</td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Натяжной потолок</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Финальный клининг</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Укладка и затирка плитки</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Полная замена сантехники</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">
+                Выравнивание стен и пола по маякам
+              </td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Монтаж электропроводки</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Разводка труб водоснабжения</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">Работа по дизайн проекту</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr class="white-bg">
+              <td colspan="2" class="left">Устройство теплых полов</td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="left">
+                Мозаика, художественная роспись стен
+              </td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/no_icon.svg" alt="no_icon" />
+              </td>
+              <td>
+                <img src="assets/icons/includes/yes_icon.svg" alt="yes_icon" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <!-- PORTFOLIO -->
 
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <h2 class=title>Cдали более 150+ квартир с ремонтом различной степени сложности</h2>
-            <div class="portfolio__wrapper">
+    <section class="portfolio">
+      <div class="container">
+        <h3 class="caption">ПОРТФОЛИО</h3>
+        <h2 class="title">Квартиры после нашего ремонта</h2>
 
-                <!-- TABS -->
+        <!-- TABS -->
 
-                <ul class="portfolio__tabs">
-                    <li class="portfolio__tab">
-                        <a>75 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>80 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>56 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>80 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>108 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>70 м<sup><small>2</small></sup></a>
-                    </li>
-                    <li class="portfolio__tab">
-                        <a>90 м<sup><small>2</small></sup></a>
-                    </li>
-                </ul>
+        <ul class="portfolio__tabs">
+          <li class="portfolio__tab portfolio__tab-1">
+            <a
+              >75 м<sup><small>2</small></sup></a
+            >
+          </li>
+          <li class="portfolio__tab portfolio__tab-2">
+            <a
+              >80 м<sup><small>2</small></sup></a
+            >
+          </li>
+          <li class="portfolio__tab portfolio__tab-3">
+            <a
+              >56 м<sup><small>2</small></sup></a
+            >
+          </li>
+          <li class="portfolio__tab portfolio__tab-4">
+            <a
+              >80 м<sup><small>2</small></sup></a
+            >
+          </li>
+          <li class="portfolio__tab portfolio__tab-5">
+            <a
+              >108 м<sup><small>2</small></sup></a
+            >
+          </li>
+          <li class="portfolio__tab portfolio__tab-6">
+            <a
+              >70 м<sup><small>2</small></sup></a
+            >
+          </li>
+        </ul>
 
-                <!-- FIRST  -->
+        <div class="portfolio__wrapper">
+          <!-- FIRST  -->
 
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs" data-max-width="700">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Старом переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SECOND -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- THIRD -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FOURTH  -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FIFTH -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SIX -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SEVEN -->
-
-                <div class="portfolio__content">
-                    <div class="fotorama" data-nav="thumbs">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image1.jpg" alt="our_work">
-                        <img class="portfolio__image" src="assets/img/portfolio/first/image2.jpg" alt="our_work">
-                    </div>
-                    <div class="appartment__description">
-                        <div class="appartment__address">
-                            Ремонт квартиры 72 м² на Голяковском переулке
-                        </div>
-                        <div class="appartment__info">
-                            <span>Стоимость ремонта:</span>
-                            <span>3 130 руб. / м²</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Тип ремонта:</span>
-                            <span>Косметический</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Что сделано:</span>
-                            <span>Комната, кухня, санузел</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Сроки ремонта:</span>
-                            <span>8 дней</span>
-                        </div>
-                        <div class="appartment__info">
-                            <span>Метраж:</span>
-                            <span>75 метров</span>
-                        </div>
-                        <div class="appartment__proposal proposal">
-                            <div class="proposal__title">Понравились наши работы?<br>
-                                <span>Закажите расчет и мы сделаем вам не хуже</span>
-                            </div>
-                            <div class="btn btn-proposal">Заказать смету</div>
-                        </div>
-                    </div>
-                </div>
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
             </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+            </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+            </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+            </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+            </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__content faded">
+            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true">
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image1.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image2.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image4.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image5.jpg"
+                alt="our_work"
+              />
+              <img
+                class="portfolio__image"
+                src="assets/img/portfolio/first/image6.jpg"
+                alt="our_work"
+              />
+            </div>
+            <div class="appartment__description">
+              <div class="appartment__address">
+                Ремонт квартиры <span class="bold">72 м²</span> на
+                <span class="bold">Старом переулке</span>
+              </div>
+              <div class="appartment__info">
+                <span>Стоимость ремонта:</span>
+                <span>3 130 руб. / м²</span>
+              </div>
+              <div class="appartment__info">
+                <span>Тип ремонта:</span>
+                <span>Косметический</span>
+              </div>
+              <div class="appartment__info">
+                <span>Что сделано:</span>
+                <span>Комната, кухня, санузел</span>
+              </div>
+              <div class="appartment__info">
+                <span>Сроки ремонта:</span>
+                <span>8 дней</span>
+              </div>
+              <div class="appartment__info">
+                <span>Метраж:</span>
+                <span>75 метров</span>
+              </div>
+              <div class="appartment__proposal proposal">
+                <div class="proposal__title">
+                  Понравились наши работы?<br />
+                  <span>Закажите расчет и мы сделаем вам не хуже</span>
+                </div>
+                <button class="btn btn-estimate">Заказать смету</button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- REVIEWS -->
+    <section class="brands">
+      <div class="container">
+        <h3 class="caption">ЛУЧШИЕ ПРОИЗВОДИТЕЛИ</h3>
+        <h2 class="title">Используем лучшие материалы</h2>
+        <div class="slide-wrap">
+          <div class="slideshow">
+            <div class="slide-entry">
+              <div class="slide-content">
+                <div class="brands__items">
+                  <img src="assets/icons/brands/abb_logo.svg" alt="abb_logo" />
+                  <img
+                    src="assets/icons/brands/ceresit_logo.svg"
+                    alt="ceresit_logo"
+                  />
+                  <img
+                    src="assets/icons/brands/knauf_logo.svg"
+                    alt="knauf_logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="slide-entry">
+              <div class="slide-content">
+                <div class="brands__items">
+                  <img
+                    src="assets/icons/brands/weber_logo.svg"
+                    alt="weber_logo"
+                  />
+                  <img
+                    src="assets/icons/brands/makita_logo.svg"
+                    alt="makita_logo"
+                  />
+                  <img
+                    src="assets/icons/brands/tikkurila_logo.svg"
+                    alt="tikkurila_logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="slide-nav">
+            <li id="prev-slide">
+              <img src="assets/icons/brands/left_arrow.svg" alt="left" />
+            </li>
+            <li id="next-slide">
+              <img src="assets/icons/brands/right_arrow.svg" alt="right" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <section class="reviews">
-        <div class="container">
-            <h2 class="title">Мы следим за репутацией</h2>
-            <div class="reviews__items">
-                <a href="javascript:void(0);" class="reviews__item">
-                    <img src="assets/icons/reviews/spr.svg" alt="spr_logo">
-                </a>
-                <a href="javascript:void(0);" class="reviews__item">
-                    <img src="assets/icons/reviews/yell.svg" alt="yell_logo">
-                </a>
-                <a href="javascript:void(0);" class="reviews__item">
-                    <img src="assets/icons/reviews/zoon.svg" alt="zoon_logo">
-                </a>
+      <div class="container">
+        <h3 class="caption">ОТЗЫВЫ</h3>
+        <h2 class="title">Следим за нашей репутацией</h2>
+        <div class="reviews__items">
+          <div class="reviews__item hvr-grow">
+            <a class="reviews__header" href="javascript:void">
+              <img
+                src="assets/icons/reviews/otzovik.svg"
+                alt="otzovik_logo"
+                class="reviews__logo"
+              />
+            </a>
+            <p class="reviews__promo">
+              Спасибо мастерам за ремонт! Уложились в 10 дней
+            </p>
+            <div class="reviews__rating">
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <a href="javascript:void" class="reviews__link">Все отзывы</a>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- STAGES -->
-
-    <section class="stages">
-        <div class="container">
-            <h2 class="title">Ремонт в 4 этапа</h2>
-            <div class="stages__items">
-                <div class="stages__item">
-                    <div class="stages__progress">1
-                        <hr>
-                    </div>
-                    <div class="stages__title">Получение заявки</div>
-                    <div class="stages__description">Оставьте заявку на сайте или позвоните нам сами, и оператор
-                        назначит выезд сметчика в удобное для Вас время.</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__progress">2
-                        <hr>
-                    </div>
-                    <div class="stages__title">Выезд сметчика</div>
-                    <div class="stages__description">Сметчик сделает замеры, предложит варианты отделки, составит
-                        подробную смету и ответит на все ваши вопросы.
-                    </div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__progress">3
-                        <hr>
-                    </div>
-                    <div class="stages__title">Ремонтные работы</div>
-                    <div class="stages__description">Цены, сроки и обязательства будут зафиксированы в официальном
-                        договоре после чего начнутся ремонтные работы.</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__progress">4</div>
-                    <div class="stages__title">Прием выполненных работ</div>
-                    <div class="stages__description">Завершаем все работы, проводим уборку и выдаем гарантию.</div>
-                </div>
+          <div class="reviews__item hvr-grow">
+            <a class="reviews__header" href="javascript:void">
+              <img
+                src="assets/icons/reviews/zoon.svg"
+                alt="zoon_logo"
+                class="reviews__logo"
+              />
+            </a>
+            <p class="reviews__promo">
+              Получилось симпатично, мне всё понравилось!
+            </p>
+            <div class="reviews__rating">
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <a href="javascript:void" class="reviews__link">Все отзывы</a>
             </div>
+          </div>
+
+          <div class="reviews__item hvr-grow">
+            <a class="reviews__header" href="javascript:void">
+              <img
+                src="assets/icons/reviews/spr.svg"
+                alt="spr_logo"
+                class="reviews__logo"
+              />
+            </a>
+            <p class="reviews__promo">
+              Все очень качественно, у нас с мужем нет никаких нареканий
+            </p>
+            <div class="reviews__rating">
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <a href="javascript:void" class="reviews__link">Все отзывы</a>
+            </div>
+          </div>
+
+          <div class="reviews__item hvr-grow">
+            <a class="reviews__header" href="javascript:void">
+              <img
+                src="assets/icons/reviews/yell.svg"
+                alt="yell_logo"
+                class="reviews__logo"
+              />
+            </a>
+            <p class="reviews__promo">
+              Все сделано профессионально, на высоком уровне!
+            </p>
+            <div class="reviews__rating">
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <img
+                src="assets/icons/reviews/star.svg"
+                alt="good_star"
+                class="reviews__star"
+              />
+              <a href="javascript:void" class="reviews__link">Все отзывы</a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FAQ -->
 
     <section class="faq">
+      <div class="container">
+        <h3 class="caption">FAQ</h3>
+        <h2 class="title">Ответы на часто задаваемые вопросы</h2>
+        <div class="accordion-item">
+          <h3 class="faq__title">
+            Почему вам можно доверять?
+            <span class="arrow">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z"
+                />
+              </svg>
+            </span>
+          </h3>
+          <div class="content">
+            <div class="entry">
+              <p>
+                Заключим с вами официальный договор, в котором будут указаны
+                сроки и стоимость проведения работ. А также предоставим
+                официальную гарантию на срок до 3 лет – если что-либо пойдет не
+                так, бесплатно устраним проблему. Дорожим своей хорошей
+                репутацией.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="faq__title">
+            Сколько дней длится ремонт?
+            <span class="arrow">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z"
+                />
+              </svg>
+            </span>
+          </h3>
+          <div class="content">
+            <div class="entry">
+              <p>
+                Средний срок выполнения ремонта составляет от 25 до 60 дней –
+                все зависит от площади квартиры, сложности и объема
+                запланированных работ. Более точно сориентируем вас по времени
+                после обсуждения проекта и выполнения замеров.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="faq__title">
+            Уже есть дизайн проект, возьмете в работу?
+            <span class="arrow">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z"
+                />
+              </svg>
+            </span>
+          </h3>
+          <div class="content">
+            <div class="entry">
+              <p>
+                Конечно – с радостью воплотим его в реальность. Подберем
+                подходящие строительные и отделочные материалы, приобретем их со
+                своей корпоративной скидкой в СТД «Петрович».
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="faq__title">
+            Сколько стоит комплексный ремонт с материалом?
+            <span class="arrow">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z"
+                />
+              </svg>
+            </span>
+          </h3>
+          <div class="content">
+            <div class="entry">
+              <p>
+                Цены на услуги можно посмотреть здесь – от 3500 руб./м². Если
+                хотите сэкономить, воспользуйтесь акциями – например, есть
+                предложения для однокомнатных квартир и студий с предчистовой
+                отделкой. Материалы - в каждом случае рассчитываются
+                индивидуально. Их стоимость напрямую зависит от количества и
+                производителей.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="faq__title">
+            Можно заказать ремонт комнаты или ванной?
+            <span class="arrow">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z"
+                />
+              </svg>
+            </span>
+          </h3>
+          <div class="content">
+            <div class="entry">
+              <p>
+                К сожалению, нет – мы выполняем только комплексный ремонт
+                квартир. Также мы не беремся за "доделки". Когда в квартире уже
+                работали частные мастера, а потом "сняв сливки" срочно уехали
+                или исчезли, оставив после себя не особо качественную
+                подготовку.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIFT -->
+
+    <section class="gift">
+      <div class="container">
+        <div class="gift__description">
+          <h4 class="gift__title">
+            Дизайн проект<br /><span>в подарок!</span>
+          </h4>
+          <h5 class="gift__subtitle">
+            Базовый дизайн проект при заключении договора на ремонт.
+          </h5>
+          <div class="gift__advantages">
+            <img src="assets/icons/gift/figure_arrow.svg" alt="figure_arrow" />
+            <p>Функциональность расположения мебели</p>
+          </div>
+          <div class="gift__advantages">
+            <img src="assets/icons/gift/figure_arrow.svg" alt="figure_arrow" />
+            <p>Удобное размещение розеток</p>
+          </div>
+          <div class="gift__advantages">
+            <img src="assets/icons/gift/figure_arrow.svg" alt="figure_arrow" />
+            <p>Подбор цветовых решений и сочетаний</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+
+    <section class="advantages">
+      <div class="container">
+        <h3 class="caption">ВАШИ ВЫГОДЫ</h3>
+        <h2 class="title">Преимущества работы с нами</h2>
+        <div class="advantages__items">
+          <div class="advantages__item">
+            <div id="home-icon"></div>
+            <h5 class="advantages__descr">
+              Начнем работы на <br />Вашем объекте в течение<br />
+              <span class="bold">48 часов</span>
+            </h5>
+          </div>
+          <div class="advantages__item">
+            <div id="delivery-icon"></div>
+            <h5 class="advantages__descr">
+              Закупим и доставим материалы, а также предоставим
+              <span class="bold">скидку на них до 20%</span> от рыночной
+              стоимости
+            </h5>
+          </div>
+          <div class="advantages__item">
+            <div id="money-icon"></div>
+            <h5 class="advantages__descr">
+              Стоимость работ<br /><span class="bold">не увеличивается</span
+              ><br />
+              в процессе ремонта
+            </h5>
+          </div>
+          <div class="advantages__item">
+            <div id="order-icon"></div>
+            <h5 class="advantages__descr">
+              <span class="bold">Решим все проблемы за Вас: </span>согласуем
+              отключение стояков, вывезем за собой мусор.<br />
+              <span class="bold">Соблюдем все нормы стройки</span>
+            </h5>
+          </div>
+          <div class="advantages__item">
+            <div id="payment-icon"></div>
+            <h5 class="advantages__descr">
+              Все работы выполняется в
+              <span class="bold">установленный срок.</span> В случае просрочки
+              работ
+              <span class="bold">компенсируем за каждый день просрочки!</span>
+            </h5>
+          </div>
+          <div class="advantages__item">
+            <div id="guarantee-icon"></div>
+            <h5 class="advantages__descr">
+              Надежная компания - успешно работаем более
+              <span class="bold">12 лет</span> на рынке ремонтных услуг. В 2020
+              году мы выполнили <span class="bold">74 ремонта.</span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUDIT -->
+
+    <section class="audit">
+      <div class="container">
+        <h5 class="audit__title">
+          Получите <span>аудит сметы</span> и гарантированную скидку 10%в
+          подарок!
+        </h5>
+        <h6 class="audit__subtitle">
+          Всегда можно сравнить цены и получить еще более выгодное предложение
+          с<br />
+          дополнительной скидкой 10%. Приложите сделанный расчет, прораб с<br />
+          двадцатилетним стажем сделает его аудит.
+        </h6>
+        <h6 class="audit__subtitle">
+          Получите аудит сметы и гарантированную скидку 10%
+        </h6>
+        <button class="btn btn-audit">Получить расчет проекта</button>
+      </div>
+    </section>
+
+    <!-- MESSENGERS  -->
+
+    <section class="messengers">
+      <div class="container">
+        <div class="messengers__slider">
+          <img src="assets/img/messengers/bg-phone.png" alt="bg-phone" />
+        </div>
+        <div class="messengers__wrapper">
+          <h5 class="messengers__caption">ОТЗЫВЫ</h5>
+          <h6 class="messengers__title">Отзывы наших<br />клиентов</h6>
+          <h6 class="messengers__subtitle">
+            В разделе Отзывы в WhatsApp Вы <br />можете посмотреть отзывы наших
+            <br />клиентов в мессенджере <br />WhatsApp
+          </h6>
+        </div>
+        <img
+          src="assets/img/messengers/Flower.png"
+          alt="flower"
+          class="messengers__flower"
+        />
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer class="footer">
+      <div class="sticky">
         <div class="container">
-            <h2 class="title">Ответы на часто задаваемые вопросы</h2>
-            <div class="accordion-item">
-                <h3 class="faq__title">
-                    Почему вам можно доверять?
-                    <span class="arrow">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" />
-                        </svg>
-                    </span>
-                </h3>
-                <div class="content">
-                    <div class="entry">
-                        <p>
-                            Заключим с вами официальный договор, в котором будут указаны сроки и стоимость проведения
-                            работ. А также предоставим официальную гарантию на срок до 3 лет – если что-либо пойдет не
-                            так, бесплатно устраним проблему. Дорожим своей хорошей репутацией.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h3 class="faq__title">
-                    Сколько дней длится ремонт?
-                    <span class="arrow">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" />
-                        </svg>
-                    </span>
-                </h3>
-                <div class="content">
-                    <div class="entry">
-                        <p>
-                            Средний срок выполнения ремонта составляет от 25 до 60 дней – все зависит от площади
-                            квартиры, сложности и объема запланированных работ. Более точно сориентируем вас по времени
-                            после обсуждения проекта и выполнения замеров.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h3 class="faq__title">
-                    Уже есть дизайн проект, возьмете в работу?
-                    <span class="arrow">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" />
-                        </svg>
-                    </span>
-                </h3>
-                <div class="content">
-                    <div class="entry">
-                        <p>
-                            Конечно – с радостью воплотим его в реальность. Подберем подходящие строительные и
-                            отделочные материалы, приобретем их со своей корпоративной скидкой в СТД «Петрович».
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h3 class="faq__title">
-                    Сколько стоит комплексный ремонт с материалом?
-                    <span class="arrow">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" />
-                        </svg>
-                    </span>
-                </h3>
-                <div class="content">
-                    <div class="entry">
-                        <p>
-                            Цены на услуги можно посмотреть здесь – от 3500 руб./м². Если хотите сэкономить,
-                            воспользуйтесь акциями – например, есть предложения для однокомнатных квартир и студий с
-                            предчистовой отделкой. Материалы - в каждом случае рассчитываются индивидуально. Их
-                            стоимость напрямую зависит от количества и производителей.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h3 class="faq__title">
-                    Можно заказать ремонт комнаты или ванной?
-                    <span class="arrow">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" />
-                        </svg>
-                    </span>
-                </h3>
-                <div class="content">
-                    <div class="entry">
-                        <p>
-                            К сожалению, нет – мы выполняем только комплексный ремонт квартир. Также мы не беремся за
-                            "доделки". Когда в квартире уже работали частные мастера, а потом "сняв сливки" срочно
-                            уехали или исчезли, оставив после себя не особо качественную подготовку.
-                        </p>
-                    </div>
-                </div>
-            </div>
+          <nav class="footer__menu">
+            <ul class="footer__list">
+              <li class="footer__link">
+                <a href="javascript:void(0);">Ремонт квартиры</a>
+              </li>
+              <li class="footer__link">
+                <a href="javascript:void(0);">Ремонт санузла</a>
+              </li>
+              <li class="footer__link">
+                <a href="javascript:void(0);">Ремонт кухни</a>
+              </li>
+              <li class="footer__link">
+                <a href="javascript:void(0);">Ремонт комнаты</a>
+              </li>
+              <li class="footer__link">
+                <a href="javascript:void(0);">Ремонт офиса</a>
+              </li>
+              <li class="footer__link">
+                <a href="javascript:void(0);">Отделочные работы</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </section>
-
-    <!-- MODAL QUIZ TEST -->
-
-    <section class="test__overlay">
-        <div class="test" id="test">
-            <div class="container">
-                <div class="test__content">
-                    <div class="test__head">
-                        <div class="title-wrap title-margin-larg">
-                            <h2 class="test__title">
-                                Ответьте на 8 вопросов и получите <span class="trigger"> расчёт<br> стоимости</span>
-                                ремонта <span class="trigger">с точностью 95% + 1 подарок!</span>
-                            </h2>
-                        </div>
-                        <div class="progress__title progress__title-top">
-                            Расчет пройден на <span class="procent">0%</span>
-                        </div>
-                        <div class="test-item__progress">
-                            <div class="test__visual">
-                                <div class="test-circle test-circle-0 test-circle-active">
-                                </div>
-                                <div class="test-block test-block-0">
-                                </div>
-                                <div class="test-circle test-circle-1 ">
-                                </div>
-                                <div class="test-block test-block-1">
-                                </div>
-                                <div class="test-circle test-circle-2">
-                                </div>
-                                <div class="test-block test-block-2">
-                                </div>
-                                <div class="test-circle test-circle-3">
-                                </div>
-                                <div class="test-block test-block-3">
-                                </div>
-                                <div class="test-circle test-circle-4">
-                                </div>
-                                <div class="test-block test-block-4">
-                                </div>
-                                <div class="test-circle test-circle-5">
-                                </div>
-                                <div class="test-block test-block-5">
-                                </div>
-                                <div class="test-circle test-circle-6">
-                                </div>
-                                <div class="test-block test-block-6">
-                                </div>
-                                <div class="test-circle test-circle-7">
-                                </div>
-                                <div class="test-block test-block-7">
-                                </div>
-                                <div class="test-circle test-circle-8">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="test-slider__wrap">
-                        <form action="quiz_sendform.php" id="testForm" class="test-form" method="POST"
-                            enctype="multipart/form-data">
-                            <input type="hidden" name="formname" value="test">
-                            <div class="test-slider">
-                                <!-- 1 -->
-                                <div class="test-slider__item">
-                                    <div class="progress__title">
-                                        Вопрос 1 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Где Вы планируете делать ремонт?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1">
-                                        <!-- 1 -->
-                                        <label for="qw1-1" class="label-qw1 label-qw1-4">
-                                            <span class="label-qw1-img"
-                                                style="background:url(./assets/img/test_first_block/new.png) no-repeat center;background-size:cover">
-                                            </span>
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw1-1" class="radio-btn checkbox-inp"
-                                                    value="Новостройка" name="qw1">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Новостройка
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 2 -->
-                                        <label for="qw1-2" class="label-qw1 label-qw1-4">
-                                            <span class="label-qw1-img"
-                                                style="background:url(./assets/img/test_first_block/old.png) no-repeat center;background-size:cover">
-                                            </span>
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw1-2" class="radio-btn checkbox-inp"
-                                                    value="Вторичка" name="qw1">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Вторичка
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw1-3" class="label-qw1 label-qw1-4">
-                                            <span class="label-qw1-img"
-                                                style="background:url(./assets/img/test_first_block/house.png) no-repeat center;background-size:cover">
-                                            </span>
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw1-3" class="radio-btn checkbox-inp"
-                                                    value="Частный дом" name="qw1">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Частный дом
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw1-3" class="label-qw1 label-qw1-4">
-                                            <span class="label-qw1-img"
-                                                style="background:url(./assets/img/test_first_block/office.png) no-repeat center;background-size:cover">
-                                            </span>
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw1-3" class="radio-btn checkbox-inp"
-                                                    value="Офис" name="qw1">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Офис
-                                                </span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <!-- 2 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 2 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Укажите помещения в которых нужен ремонт?
-                                            <div class="progress__title sub-desc">
-                                                (можно выбрать несколько вариантов)
-                                            </div>
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1">
-                                        <!-- 1 -->
-                                        <label for="qw2-1" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/all.jpg) no-repeat center bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-1" class="radio-btn checkbox-inp"
-                                                    value="Вся квартира / дом" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Вся квартира / дом
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 2 -->
-                                        <label for="qw2-2" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/room.jpg) no-repeat center bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-2" class="radio-btn checkbox-inp"
-                                                    value="Комнаты / зал" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Комнаты / зал
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw2-3" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/bathroom.jpg) no-repeat left 0vw bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-3" class="radio-btn checkbox-inp"
-                                                    value="Ванная / туалет" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Ванная / туалет
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 4 -->
-                                        <label for="qw2-4" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/kitchen.jpg) no-repeat center bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-4" class="radio-btn checkbox-inp"
-                                                    value="Кухня" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Кухня
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 5 -->
-                                        <label for="qw2-5" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/hall.jpg) no-repeat center bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-5" class="radio-btn checkbox-inp"
-                                                    value="Коридор" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Коридор
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 6 -->
-                                        <label for="qw2-6" class="label-qw1 label-qw2"
-                                            style="background:url(./assets/img/test_second_block/other.jpg) no-repeat center bottom;background-size:100% auto">
-                                            <span class="checkbox-wrap test-question__checkbox">
-                                                <input type="checkbox" id="qw2-6" class="radio-btn checkbox-inp"
-                                                    value="Другое" name="qw2">
-                                                <span class="before-bg"></span>
-                                                <span class="radio-label">
-                                                    <span class="checkbox-psevdo">
-                                                        <span class="checkbox-psevdo-active">
-                                                            <img src="./assets/icons/test/check.svg" alt="check">
-                                                        </span>
-                                                    </span>
-                                                    Другое
-                                                </span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <!-- 3 -->
-                                <div class="test-slider__item no-focus" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 3 из 9
-                                    </div>
-                                    <div class="test-slider-qw-3">
-                                        <div class="qw-3-item">
-                                            <div class="title-margin-sm">
-                                                <h3 class="descr-test">
-                                                    Введите площадь помещения
-                                                </h3>
-                                            </div>
-                                            <div class="qw-3-item-block">
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Вся квартира / дом</span>
-                                                    <input type="number" name="qw3-1" class="input inp-qw-3"
-                                                        placeholder="100">
-                                                    <span>м2</span>
-                                                </div>
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Комнаты / зал</span>
-                                                    <input type="number" name="qw3-2" class="input inp-qw-3"
-                                                        placeholder="20">
-                                                    <span>м2</span>
-                                                </div>
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Ванная / туалет</span>
-                                                    <input type="number" name="qw3-3" class="input inp-qw-3"
-                                                        placeholder="10">
-                                                    <span>м2</span>
-                                                </div>
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Кухня</span>
-                                                    <input type="number" name="qw3-4" class="input inp-qw-3"
-                                                        placeholder="14">
-                                                    <span>м2</span>
-                                                </div>
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Коридор</span>
-                                                    <input type="number" name="qw3-5" class="input inp-qw-3"
-                                                        placeholder="15">
-                                                    <span>м2</span>
-                                                </div>
-                                                <div class="qw3-text qw-i-jq">
-                                                    <span class="qw3-text-title">Другое</span>
-                                                    <input type="number" name="qw3-6" class="input inp-qw-3"
-                                                        placeholder="10">
-                                                    <span>м2</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="qw-3-circle">
-                                            ИЛИ
-                                        </div>
-                                        <div class="qw-3-item">
-                                            <div class="title-margin-sm">
-                                                <h3 class="descr-test">
-                                                    Прикрепите планировку помещения
-                                                </h3>
-                                            </div>
-                                            <div class="test-inp">
-                                                <div class="test-file-wrap">
-                                                    <input type="file" id="file" class="input inp-hiden" name="upload"
-                                                        accept="image/*">
-                                                    <div class="file-link" id="file-name">
-                                                        Выберите файл
-                                                    </div>
-                                                    <label for="file" class="file-btn">ВЫБРАТЬ</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 4 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 4 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Какой тип ремонта Вам нужен?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1">
-                                        <!-- 1 -->
-                                        <span class="label-qw1 label-qw4">
-                                            <label for="qw4-1" class="label-qw1-img"
-                                                style="background:url(./assets/img/test_four_block/cosmetic.jpg) no-repeat center bottom;background-size:100% auto">
-                                            </label>
-                                            <span class="qw-t-wrap"><span class="qw-t">
-                                                    <img src="./assets/icons/test/info.svg" alt="info">
-                                                    <span class="tooltip-test">
-                                                        <span class="t-title">
-                                                            Средняя стоимость за 1 м2 - 100 $ (работа + материал)
-                                                        </span>
-                                                        <span class="t-title">
-                                                            <span>
-                                                                Что включает в себя <br>
-                                                                косметический ремонт:
-                                                            </span>
-                                                        </span>
-                                                        <ul class="list-t">
-                                                            <li> - Частичная либо полная замена или обновление финишных
-                                                                материалов стен, пола, потолков без их предварительной
-                                                                подготовки, не затрагивая инженерных коммуникаций и (не
-                                                                меняя конструктивных решений помещения).</li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                        </ul>
-                                                    </span>
-                                                </span>
-                                            </span>
-                                            <label for="qw4-1" class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw4-1" class="radio-btn checkbox-inp"
-                                                    value="Косметический" name="qw4">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Косметический
-                                                </span>
-                                            </label>
-                                        </span>
-                                        <!-- 2 -->
-                                        <span class="label-qw1 label-qw4">
-                                            <label for="qw4-2" class="label-qw1-img"
-                                                style="background:url(./assets/img/test_four_block/capital.jpg) no-repeat center bottom;background-size:100% auto">
-                                            </label>
-                                            <span class="qw-t-wrap"><span class="qw-t">
-                                                    <img src="./assets/icons/test/info.svg" alt="info">
-                                                    <span class="tooltip-test">
-                                                        <span class="t-title">
-                                                            Средняя стоимость за 1 м2 - 270 $ (работа + материал)
-                                                        </span>
-                                                        <span class="t-title">
-                                                            <span>
-                                                                Что включает в себя<br> капитальный ремонт:
-                                                            </span>
-                                                        </span>
-                                                        <ul class="list-t">
-                                                            <li></li>
-                                                            <li>- Полный цикл ремонтно-отделочных работ (от демонтажа до
-                                                                чистовой навески приборов), включая замену либо ремонт
-                                                                инженерных коммуникаций, с возможной перепланировкой
-                                                                помещений.
-                                                            </li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                        </ul>
-                                                    </span>
-                                                </span>
-                                            </span>
-                                            <label for="qw4-2" class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw4-2" class="radio-btn checkbox-inp"
-                                                    value="Капитальный" name="qw4">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Капитальный
-                                                </span>
-                                            </label>
-                                        </span>
-                                        <!-- 3 -->
-                                        <span class="label-qw1 label-qw4">
-                                            <label for="qw4-3" class="label-qw1-img"
-                                                style="background:url(./assets/img/test_four_block/design.jpg) no-repeat center bottom;background-size:100% auto">
-                                            </label>
-                                            <span class="qw-t-wrap"><span class="qw-t">
-                                                    <img src="./assets/icons/test/info.svg" alt="">
-                                                    <span class="tooltip-test">
-                                                        <span class="t-title">
-                                                            Средняя стоимость за 1 м2 - 350 $ (работа + материал +
-                                                            дизайн-проект)
-                                                        </span>
-                                                        <span class="t-title">
-                                                            <span>
-                                                                Что включает в себя <br> дизайнерский ремонт:
-                                                            </span>
-                                                        </span>
-                                                        <ul class="list-t">
-                                                            <li></li>
-                                                            <li>- Полный цикл ремонтно-отделочных работ (от демонтажа до
-                                                                чистовой навески приборов), включая полную замену
-                                                                инженерных
-                                                                коммуникаций, с перепланировкой помещений и набором
-                                                                сложных
-                                                                конструктивных элементов, с использованием эксклюзивных
-                                                                отделочных материалов.</li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                        </ul>
-                                                    </span>
-                                                </span>
-                                            </span>
-                                            <label for="qw4-3" class="checkbox-wrap test-question__checkbox">
-                                                <input type="radio" id="qw4-3" class="radio-btn checkbox-inp"
-                                                    value="Дизайнерский" name="qw4">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Дизайнерский
-                                                </span>
-                                            </label>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- 5 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 5 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            У вас уже есть дизайн-проект?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-5">
-                                        <div class="test-slider-qw-5-img">
-                                            <img src="./assets/img/test_five_block/appartment.png" alt="appartment">
-                                        </div>
-                                        <div class="test-slider-qw-5-list">
-                                            <label for="qw5-1" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw5-1" class="radio-btn checkbox-inp"
-                                                    value="Да, есть" name="qw5">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Да, есть
-                                                </span>
-                                            </label>
-                                            <label for="qw5-2" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw5-2" class="radio-btn checkbox-inp"
-                                                    value="Нет, и не будет" name="qw5">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Нет, и не будет
-                                                </span>
-                                            </label>
-                                            <label for="qw5-3" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw5-3" class="radio-btn checkbox-inp"
-                                                    value="Нужен дизайн проект" name="qw5">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Нужен дизайн проект
-                                                </span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 6 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 6 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Как Вам посчитать стоимость ремонта ?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-5">
-                                        <div class="test-slider-qw-6-img">
-                                            <img src="./assets/icons/test/estimate.png" alt="estimate">
-                                        </div>
-                                        <div class="test-slider-qw-6-list">
-                                            <label for="qw6-1" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw6-1" class="radio-btn checkbox-inp"
-                                                    value="Посчитать отдельно материалы и работу" name="qw6">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Посчитать отдельно материалы и работу
-                                                </span>
-                                            </label>
-                                            <label for="qw6-2" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw6-2" class="radio-btn checkbox-inp"
-                                                    value="Без материалов, купим их самостоятельно " name="qw6">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Без материалов, купим их самостоятельно
-                                                </span>
-                                            </label>
-                                            <label for="qw6-3" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw6-3" class="radio-btn checkbox-inp"
-                                                    value="Посчитать полностью под ключ" name="qw6">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Посчитать полностью под ключ
-                                                </span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 9 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 7 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Какой бюджет Вы рассчитываете потратить на реализацию интерьера?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-7 test-slider-qw-9">
-                                        <!-- 1 -->
-                                        <label for="qw9-1" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-1" class="radio-btn checkbox-inp"
-                                                    value="До 150 тыс. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        До 150 тыс. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 2 -->
-                                        <label for="qw9-2" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-2" class="radio-btn checkbox-inp"
-                                                    value="от 150 до 300 тыс. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 150 до 300 тыс. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw9-3" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-3" class="radio-btn checkbox-inp"
-                                                    value="от 300 до 500 тыс. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 300 до 500 тыс. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 4 -->
-                                        <label for="qw9-4" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-4" class="radio-btn checkbox-inp"
-                                                    value="от 500 до 800 тыс. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 500 до 800 тыс. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 5 -->
-                                        <label for="qw9-5" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-5" class="radio-btn checkbox-inp"
-                                                    value="от 800 до 1,2 млн. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 800 до 1,2 млн. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 6 -->
-                                        <label for="qw9-6" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-6" class="radio-btn checkbox-inp"
-                                                    value="от 1,2 млн. до 1,5 млн. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 1,2 млн. до 1,5 млн. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 7 -->
-                                        <label for="qw9-7" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-7" class="radio-btn checkbox-inp"
-                                                    value="от 1,5 млн. до 2 млн. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        от 1,5 млн. до 2 млн. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 8 -->
-                                        <label for="qw9-8" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw9-8" class="radio-btn checkbox-inp"
-                                                    value="Свыше 2 млн. рублей" name="qw9">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        Свыше 2 млн. рублей
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <!-- 10 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 8 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Когда вы планируете начать ремонтные работы?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-7 test-slider-qw-10">
-                                        <!-- 1 -->
-                                        <label for="qw10-1" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw10-1" class="radio-btn checkbox-inp"
-                                                    value="В ближайшее время" name="qw10">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        В ближайшее время
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 2 -->
-                                        <label for="qw10-2" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw10-2" class="radio-btn checkbox-inp"
-                                                    value="В течение месяца" name="qw10">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        В течение месяца
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw10-3" class="label-qw1 label-qw4 lqw-7">
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw10-3" class="radio-btn checkbox-inp"
-                                                    value="Пока прицениваюсь" name="qw10">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        Пока прицениваюсь
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <!-- 7 -->
-                                <div class="test-slider__item" style="display: none;">
-                                    <div class="progress__title">
-                                        Вопрос 9 из 9
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Какой бы Вам хотелось получить подарок после ремонта?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-7">
-                                        <!-- 1 -->
-                                        <label for="qw7-1" class="label-qw1 label-qw4 lqw-7">
-                                            <span class="label-qw1-img label-qw7-img">
-                                                <img src="./assets/img/test_nine_block/design_project.jpg"
-                                                    alt="design_project" class="qw-7-img">
-                                            </span>
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw7-1" class="radio-btn checkbox-inp"
-                                                    value="Технический дизайн-проект" name="qw7">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        Технический дизайн-проект
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 2 -->
-                                        <label for="qw7-2" class="label-qw1 label-qw4 lqw-7">
-                                            <span class="label-qw1-img label-qw7-img">
-                                                <img src="./assets/img/test_nine_block/ceiling.jpg" alt="ceiling"
-                                                    class="qw-7-img">
-                                            </span>
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw7-2" class="radio-btn checkbox-inp"
-                                                    value="Натяжные потолки по всей квартире" name="qw7">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        Натяжные потолки по всей квартире
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <!-- 3 -->
-                                        <label for="qw7-3" class="label-qw1 label-qw4 lqw-7">
-                                            <span class="label-qw1-img label-qw7-img label-qw7-img-3">
-                                                <img src="./assets/img/test_nine_block/cleaning.jpg" alt="cleaning"
-                                                    class="qw-7-img">
-                                            </span>
-                                            <span
-                                                class="checkbox-wrap test-question__checkbox test-question__checkbox-7">
-                                                <input type="radio" id="qw7-3" class="radio-btn checkbox-inp"
-                                                    value="Клининг квартиры" name="qw7">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    <span>
-                                                        Клининг квартиры
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </label>
-                                        <div class="big-label">
-                                            <label for="qw7-4" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw7-4" class="radio-btn checkbox-inp"
-                                                    value="Меня интересует лишь стоимость, не люблю ХАЛЯВУ" name="qw7">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Меня интересует лишь стоимость.
-                                                </span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 8 -->
-                                <div class="test-slider__item final" style="display: none;">
-                                    <div class="t-desc">
-                                        Мы уже приступили к расчету
-                                    </div>
-                                    <div class="title-margin-sm">
-                                        <h3 class="descr-test">
-                                            Как Вам удобнее получить результат и бонусы ?
-                                        </h3>
-                                    </div>
-                                    <div class="test-slider-qw-1 test-slider-qw-8">
-                                        <div class="test-form-block">
-                                            <label for="qw8-2" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw8-2" class="radio-btn checkbox-inp"
-                                                    value="Перезвоните мне, у меня остались вопросы" name="qw8"
-                                                    checked="">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Перезвоните мне
-                                                </span>
-                                            </label>
-                                            <label for="qw8-3" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw8-3" class="radio-btn checkbox-inp"
-                                                    value="Пришлите мне все в Whatsapp" name="qw8">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Пришлите мне всё в WhatsApp</span>
-                                            </label>
-                                            <label for="qw8-4" class="checkbox-wrap test-question__checkbox qw5-item">
-                                                <input type="radio" id="qw8-4" class="radio-btn checkbox-inp"
-                                                    value="Получить по СМС" name="qw8">
-                                                <span class="radio-label">
-                                                    <span class="radio-psevdo">
-                                                        <span class="radio-psevdo-active"></span>
-                                                    </span>
-                                                    Получить по СМС
-                                                </span>
-                                            </label>
-                                            <div class="test-form-block-f">
-                                                <input type="tel" class="input" placeholder="8 (999) 999-99-99"
-                                                    required="" name="phone">
-                                                <div class="error"></div>
-                                                <div class="btn-wrap">
-                                                    <button class="btn tbn btn-center">
-                                                        <span class="btn-text">
-                                                            ПОЛУЧИТЬ РЕЗУЛЬТАТ
-                                                        </span>
-                                                        <span class="btn-text-sm">+ БОНУСЫ </span>
-                                                    </button>
-                                                    <img src="./assets/icons/test/gift.png" alt="gift"
-                                                        class="btn-img-f">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="test-form-img">
-                                            <img src="./assets/icons/test/top.png" alt="top">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 9 -->
-                                <div class="test-slider__item finalp" style="display: none;">
-                                    <div class="qw9-items">
-                                        <div class="final-img">
-                                            <img src="./assets/icons/test/top.png" alt="paste__image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="btn--wrap test__btn-block">
-                                <button class="btn btn-test next-test" disabled="true">
-                                    <span class="btn-text"> Далее <span class="z-a">›</span></span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="test__block">
-                        <div class="test__block__text">
-                            <div class="test__block__title">
-                                ВАШИ БОНУСЫ В КОНЦЕ ТЕСТА:
-                            </div>
-                            <div class="test__block__item test__block__item-1">
-                                <div class="test__block__img test__block__img-1">
-                                    <img src="./assets/icons/Devices/iPhone.png" alt="mockup" id="r-1">
-                                </div>
-                                <div class="test__block__desc">
-                                    Смета и подборка дизайн-проектов
-                                </div>
-                            </div>
-                            <div class="test__block__item test__block__item-2">
-                                <div class="test__block__desc">
-                                    1 из 3 подарков <br> на выбор
-                                </div>
-                                <div class="test__block__img test__block__img-2">
-                                    <img src="assets/img/test_first_block/gift.png" alt="gift">
-                                </div>
-                            </div>
-                            <div class="test__block__item test__block__item-3" style="display: none;">
-                                <div class="test__block__img test__block__img-3">
-                                    <img src="assets/icons/test/final.png" alt="present" class="gift-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </footer>
 
     <!-- SCRIPTS -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.6/lottie.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-</body>
-
+  </body>
 </html>

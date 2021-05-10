@@ -1,0 +1,63 @@
+.includes {
+  padding: 40px 0;
+  background: url("../img/includes/includes_bg.jpg") center / cover no-repeat;
+  z-index: -2;
+  table {
+    background: $custom-grey;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $custom-black;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    background: rgba(196, 196, 196, 0.25);
+    //box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    thead {
+      color: $custom-white;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    td {
+      height: 50px;
+      padding: 0 40px;
+      width: 16.6%;
+    }
+
+    .white-bg {
+      background: #fbfbfb;
+    }
+
+    .left {
+      text-align: left;
+      font-weight: normal;
+      width: 46%;
+    }
+
+    .width {
+      width: 45%;
+      font-weight: bold;
+    }
+  }
+}
+
+.includes::before {
+  content: url("../img/includes/lamp.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
