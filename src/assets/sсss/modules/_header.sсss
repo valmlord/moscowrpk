@@ -1,0 +1,11 @@
+.header {
+    &-inner {
+        display: flex;
+    }
+    &-logo {
+        margin-top: 15px;
+        &__img {
+            width: 235px;
+        }
+    }
+}
