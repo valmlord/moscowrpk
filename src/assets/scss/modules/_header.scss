@@ -1,0 +1,62 @@
+.header {
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        &__img {
+        padding-top: 27px;
+        width: 203px;
+        }
+    }
+
+    &-menu {
+        &__hamburger {
+            position: fixed;
+            top: 27px;
+            right: 20px;
+            span {
+                display: flex;
+                height: 5px;
+                width: 40px;
+                background-color: $grey;
+                margin-bottom: 4px;
+                transition: 0.5s all;
+                border-radius: 20px;
+            }
+    
+            &--active {
+                span {
+                    &:nth-child(1) {
+                        transform: translateY(5px) rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(-1px) rotate(-45deg);
+                    }
+                }
+            }
+        }
+    }
+
+    &-phone {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        text-align: right;
+        &__link {
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+            color: black;
+        }
+        &__workhours {
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 300;
+            padding: 2px 0;
+        }
+    }
+}
