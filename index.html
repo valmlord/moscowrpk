@@ -17,7 +17,9 @@
   <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="assets/css/pages/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/pages/index.css">
 </head>
 <body>
 
@@ -26,32 +28,56 @@
   <header class="header"> 
     <div class="container">
       <div class="header-inner">
-        <a class="header-logo" href="index.html">
-          <img class="header-logo__img" src="assets/images/icons/logo.svg" alt="logo">
+        <a class="logo-link" href="index.html">
+          <img class="logo-link__img" src="assets/images/icons/logo.svg" alt="logo">
         </a>
         <div class="header-menu">
-          <div class="header-menu__hamburger">
+          <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </div>
       </div>  
-        <div class="header-phone">
-          <a class="header-phone__link" href="tel:89774345940">+7 (977) 434-59-40</a>
-          <span class="header-phone__workhours">Ежедневно с 9:00 до 22:00</span>
-        </div>
+      <div class="phone">
+        <a class="phone__link" href="tel:89774345940">+7 (977) 434-59-40</a>
+        <span class="phone__workhours">Ежедневно с 9:00 до 22:00</span>
+      </div>
     </div>
   </header>
 
   <div class="promo">
     <div class="container">
-
+      <ul class="promo-bullets">
+        <li class="promo-bullet">
+            <strong class="promo-bullet__achievement">23 объекта</strong>
+            <span class="promo-bullet__achievement-description">в работе</span>
+        </li>
+        <li class="promo-bullet">
+          <strong class="promo-bullet__achievement">12 лет</strong>
+          <span class="promo-bullet__achievement-description">на рынке</span>
+        </li>
+        <li class="promo-bullet">
+          <strong class="promo-bullet__achievement">74 ремонта</strong>
+          <span class="promo-bullet__achievement-description">сделано на 2020г</span>
+        </li>
+      </ul>
+      <h1 class="promo-title">
+        Пройдите тест за минуту
+      </h1>
+      <h2 class="promo-subtitle">
+        и узнайте как не <strong>переплачивать</strong> за ремонт квартиры, 
+        в отличие от 90% Москвичей
+      </h2>
+      <button class="btn btn-promo">Пройти тест и узнать стоимость</button>
+      <p class="promo-description">
+        Ответьте на 8 простых вопросов
+        и получите один из трёх гарантированных
+        подарков на выбор
+      </p>
     </div>
   </div>
   
-
-
   <script async src="/assets/js/all.js"></script>
 </body>
 </html>
