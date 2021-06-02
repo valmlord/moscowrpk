@@ -131,6 +131,12 @@ gulp.task('images', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('fonts', () => {
+  return gulp.src([ src_assets_folder + 'fonts/**/*' ], { since: gulp.lastRun('fonts') })
+    .pipe(gulp.dest(dist_assets_folder + 'fonts'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('vendor', () => {
   if (node_dependencies.length === 0) {
     return new Promise((resolve) => {
@@ -147,7 +153,7 @@ gulp.task('vendor', () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'pug', 'sass', 'less', 'stylus', 'js', 'images', 'vendor'));
+gulp.task('build', gulp.series('clear', 'html', 'pug', 'sass', 'less', 'stylus', 'js', 'images', 'fonts', 'vendor'));
 
 gulp.task('dev', gulp.series('html', 'pug', 'sass', 'less', 'stylus', 'js'));
 
