@@ -157,7 +157,7 @@ gulp.task('serve', () => {
       baseDir: [ 'dist' ]
     },
     port: 3000,
-    open: false
+    open: true
   });
 });
 

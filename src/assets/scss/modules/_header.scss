@@ -4,15 +4,17 @@
         justify-content: space-between;
     }
 
-    &-logo {
-        &__img {
-        padding-top: 27px;
-        width: 203px;
+    .logo {
+        &-link {
+            &__img {
+                padding-top: 27px;
+                width: 203px;
+                }
         }
     }
 
     &-menu {
-        &__hamburger {
+        .hamburger {
             position: fixed;
             top: 27px;
             right: 20px;
@@ -42,7 +44,7 @@
         }
     }
 
-    &-phone {
+    .phone {
         display: flex;
         flex-direction: column;
         margin-top: 12px;
@@ -56,7 +58,7 @@
         &__workhours {
             font-family: 'Gilroy', sans-serif;
             font-weight: 300;
-            padding: 2px 0;
+            padding: 2px 0 6px 0;
         }
     }
 }
