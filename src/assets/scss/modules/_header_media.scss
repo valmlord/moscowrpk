@@ -41,7 +41,7 @@
       left: 0;
       width: 100%;
       height: auto;
-      padding: 0 20px;
+      padding: 0;
       background-color: transparent;
       transition: 0.6s all;
       box-shadow: none;
@@ -113,5 +113,22 @@
       }
 
     }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header { 
+    .menu {
+    .bullets {
+      display: flex;
+      order: 3;
+      flex-basis: 40%;
+      &-item {
+        &:last-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
   }
 }
