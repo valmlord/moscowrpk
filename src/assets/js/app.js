@@ -1,7 +1,7 @@
 // HAMBURGER
 
 const menu = document.querySelector(".menu"),
-      menuItem = document.querySelectorAll(".menu__list-link"),
+      menuItem = document.querySelectorAll(".menu-list__link"),
       hamburger = document.querySelector(".hamburger");
 
 hamburger.addEventListener("click", () => {

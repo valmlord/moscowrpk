@@ -1,0 +1,23 @@
+@media (min-width: 1024px) {
+    .promo {
+        background: url('../../images/header/header-desktop-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -173px;
+        &-title {
+            margin-top: 130px;
+        }
+
+        .bullets {
+            padding-top: 200px;
+            &-item {
+                &:first-child {
+                    margin-left: 20px;
+                }
+                &:last-child {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}

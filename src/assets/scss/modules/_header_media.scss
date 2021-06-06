@@ -1,0 +1,117 @@
+@media (min-width: 375px) {
+  .header {
+    .logo {
+      &-img {
+        width: 232px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    .menu {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    .logo {
+      display: none;
+    }
+
+    .phone {
+      display: none;
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    .menu {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      padding: 0 20px;
+      background-color: transparent;
+      transition: 0.6s all;
+      box-shadow: none;
+      z-index: 2;
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 85%;
+        border-bottom: 1px solid $dark-grey;
+        margin-top: 0;
+
+        &__item {
+          padding: 19px 0 19px 0;
+          transition: 0.5s all;
+
+          &:last-child {
+            padding-bottom: 28px;
+          }
+          &:first-child {
+              margin-left: 10%;
+          }
+
+          &:hover {
+            border-bottom: 2px solid $blue;
+          }
+        }
+      }
+
+      &-socials {
+          display: flex;
+          flex-basis: 15%;
+          justify-content: space-around;
+          font-size: 25px;
+          padding: 19px 0 16px 0;
+          border-bottom: 1px solid $dark-grey;
+          &__link {
+            color: #848484;
+          }
+      }
+
+      .logo {
+        display: flex;
+        order: 2;
+
+        &-img {
+          width: 203px;
+          padding-top: 25px;
+        }
+      }
+
+      .e-mail {
+        display: flex;
+        order: 3;
+        color: $black;
+        font-size: 16px;
+        font-weight: 500;
+        transition: 0.5s all;
+        &:hover {
+          color: $blue;
+        }
+      }
+
+      .phone {
+        display: flex;
+        order: 4;
+        margin-top: 0;
+        padding-top: 32px;
+      }
+
+    }
+  }
+}
