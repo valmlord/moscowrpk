@@ -13,11 +13,21 @@
     .menu {
       width: 50%;
     }
+
+    .phone {
+      margin-top: -40px;
+    }
   }
 }
 
 @media (min-width: 1024px) {
   .header {
+
+    &-line {
+      display: flex;
+      background-color: $dark-grey;
+      width: 100%;
+    }
     .logo {
       display: none;
     }
@@ -48,38 +58,33 @@
       z-index: 2;
 
       &-list {
+
         display: flex;
         justify-content: space-between;
         flex-basis: 85%;
-        border-bottom: 1px solid $dark-grey;
         margin-top: 0;
 
         &__item {
-          padding: 19px 0 19px 0;
+          position: relative;
           transition: 0.5s all;
 
           &:last-child {
             padding-bottom: 28px;
-          }
-          &:first-child {
-              margin-left: 10%;
-          }
-
-          &:hover {
-            border-bottom: 2px solid $blue;
           }
         }
       }
 
       &-socials {
           display: flex;
-          flex-basis: 15%;
-          justify-content: space-around;
+          flex-basis: 10%;
+          justify-content: space-between;
           font-size: 25px;
-          padding: 19px 0 16px 0;
-          border-bottom: 1px solid $dark-grey;
           &__link {
             color: #848484;
+            transition: 0.5s all;
+            &:hover {
+              color: $blue;
+            }
           }
       }
 
@@ -93,15 +98,15 @@
         }
       }
 
-      .e-mail {
+      .bullets {
         display: flex;
         order: 3;
-        color: $black;
-        font-size: 16px;
-        font-weight: 500;
-        transition: 0.5s all;
-        &:hover {
-          color: $blue;
+        flex-basis: 50%;
+        padding-right: 0;
+        &-item {
+          &:last-child {
+            margin-top: 0;
+          }
         }
       }
 
@@ -112,6 +117,25 @@
         padding-top: 32px;
       }
 
+      .sub {
+        &-menu {
+          &__list {
+            display: none;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            background-color: white;
+            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+            padding: 25px 100px 25px 25px;
+            z-index: 9;
+          }
+        }
+      }
+
+      .menu-list__item:hover .sub-menu__list {
+        display: block;
+        transition: 0.5s all;
+      }
     }
   }
 }
@@ -119,16 +143,18 @@
 @media (min-width: 1440px) {
   .header { 
     .menu {
-    .bullets {
+    .e-mail {
       display: flex;
       order: 3;
-      flex-basis: 40%;
-      &-item {
-        &:last-child {
-          margin-top: 0;
-        }
+      color: $black;
+      font-size: 16px;
+      font-weight: 900;
+      transition: 0.5s all;
+      &:hover {
+        color: $blue;
       }
     }
+
   }
   }
 }

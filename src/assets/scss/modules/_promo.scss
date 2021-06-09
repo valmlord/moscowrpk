@@ -2,6 +2,7 @@
     background: url('../../images/header/header-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
     &-title {
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
@@ -34,8 +35,27 @@
         &::after {
             position: absolute;
             content: url("../../images/promo/gift-2.png");
-            top: 55px;
+            top: 79px;
             left: -20px;
+        }
+    }
+
+    &-advantages {
+        position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+        &__item {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin-top: 22px;
+            &-img {
+                width: 50px;
+            }
+            &-description {
+                font-size: 12px;
+                padding-left: 16px;
+            }
         }
     }
 }
@@ -49,6 +69,10 @@
     &-item {
         display: flex;
         flex-direction: column;
+        &:nth-child(2) {
+            align-items: flex-end;
+        }
+
         &:last-child {
             margin-top: 15px;
         }

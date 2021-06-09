@@ -1,4 +1,8 @@
 .header {
+
+  &-line {
+    display: none;
+  }
   
   .logo {
     &-img {
@@ -11,6 +15,7 @@
     position: fixed;
     top: 27px;
     right: 20px;
+    z-index: 10;
 
     span {
       display: flex;
@@ -89,7 +94,7 @@
           font-weight: 800;
 
           &::after {
-            content: '▼';
+            content: url('../../images/icons/bx_bx-down-arrow.svg');
             color: $blue;
             padding-left: 20px;
           }

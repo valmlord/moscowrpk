@@ -1,17 +1,106 @@
+@media (min-width: 425px) {
+  .promo {
+    &-title {
+      font-size: 37px;
+    }
+
+    &-subtitle {
+      font-size: 20px;
+    }
+
+    &-description {
+      font-size: 16px;
+    }
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-left: 15px;
+    }
+
+
+    .bullets {
+      &-item {
+        width: 50%;
+        &:last-child {
+          margin-top: 0px;
+      }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .promo {
+    background: url('../../images/header/header-desktop-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 750px;
+
+    &-title {
+      font-size: 45px;
+      margin-top: 60px;
+    }
+
+    &-subtitle {
+      font-size: 30px;
+    }
+
+    &-inner {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-advantages {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      width: 90%;
+      margin-top: 15px;
+    }
+  }
+
+  .bullets {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    &-item {
+      width: 33%;
+      &:nth-child(2) {
+        align-items: flex-start;
+    }
+    }
+  }
+}
+
 @media (min-width: 1024px) {
   .promo {
     background: url('../../images/header/header-desktop-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: -198px;
+    top: -230px;
 
     &-title {
       padding-top: 230px;
     }
 
+    &-advantages {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+
+      &__item {
+        width: 25%;
+      }
+    }
+
     .bullets {
-      padding-top: 200px;
+      display: none;
+      //padding-top: 230px;
 
       &-item {
         &:first-child {
@@ -28,29 +117,26 @@
 
 @media (min-width: 1440px) {
   .promo {
-      .bullets {
-          display: none;
-      }
-      &-title {
-        //padding-top: 150px;
-          font-size: 50px;
-      }
+    .bullets {
+      display: none;
+    }
 
-      &-subtitle {
-          font-size: 40px;
-          width: 55%;
-      }
+    &-title {
+      //padding-top: 150px;
+      font-size: 50px;
+    }
 
-      &-inner {
-        display: flex;
-      }
+    &-subtitle {
+      font-size: 40px;
+      width: 55%;
+    }
 
-      &-description {
-        font-size: 16px;
-        width: 24%;
-        margin-left: 70px;
-        padding-bottom: 0;
-        margin-top: 97px;
-      }
+    &-description {
+      font-size: 16px;
+      width: 24%;
+      margin-left: 70px;
+      padding-bottom: 0;
+      margin-top: 97px;
+    }
   }
 }
