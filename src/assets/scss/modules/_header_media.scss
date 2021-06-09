@@ -28,6 +28,7 @@
       background-color: $dark-grey;
       width: 100%;
     }
+
     .logo {
       display: none;
     }
@@ -61,12 +62,13 @@
 
         display: flex;
         justify-content: space-between;
-        flex-basis: 85%;
+        flex-basis: 75%;
         margin-top: 0;
 
         &__item {
           position: relative;
           transition: 0.5s all;
+          padding-top: 23px;
 
           &:last-child {
             padding-bottom: 28px;
@@ -75,17 +77,22 @@
       }
 
       &-socials {
-          display: flex;
-          flex-basis: 10%;
-          justify-content: space-between;
-          font-size: 25px;
-          &__link {
-            color: #848484;
-            transition: 0.5s all;
-            &:hover {
-              color: $blue;
-            }
+        display: flex;
+        flex-basis: 25%;
+        font-size: 25px;
+
+        &__link {
+          color: #868686;
+          transition: 0.5s all;
+
+          &:hover {
+            color: $blue;
           }
+
+          &:nth-child(2) {
+          padding: 0 20px;
+          }
+        }
       }
 
       .logo {
@@ -103,9 +110,14 @@
         order: 3;
         flex-basis: 50%;
         padding-right: 0;
+        padding-top: 23px;
+
         &-item {
           &:last-child {
             margin-top: 0;
+          }
+          &:nth-child(2) {
+            margin-left: 42px;
           }
         }
       }
@@ -126,8 +138,11 @@
             left: 0;
             background-color: white;
             box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-            padding: 25px 100px 25px 25px;
+            padding: 25px 80px 25px 25px;
             z-index: 9;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
           }
         }
       }
@@ -141,20 +156,27 @@
 }
 
 @media (min-width: 1440px) {
-  .header { 
+  .header {
     .menu {
-    .e-mail {
-      display: flex;
-      order: 3;
-      color: $black;
-      font-size: 16px;
-      font-weight: 900;
-      transition: 0.5s all;
-      &:hover {
-        color: $blue;
+      .bullets {
+        flex-basis: 40%;
+        padding-left: 0;
       }
-    }
 
-  }
+      .e-mail {
+        display: flex;
+        order: 3;
+        color: $black;
+        font-size: 16px;
+        font-weight: 900;
+        transition: 0.5s all;
+        padding-right: 20px;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+
+    }
   }
 }

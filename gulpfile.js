@@ -124,7 +124,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('images', () => {
-  return gulp.src([ src_assets_folder + 'images/**/*.+(png|jpg|jpeg|gif|svg|ico)' ], { since: gulp.lastRun('images') })
+  return gulp.src([ src_assets_folder + 'images/**/*.+(png|jpg|jpeg|gif|svg|ico|webmanifest)' ], { since: gulp.lastRun('images') })
     .pipe(plumber())
     .pipe(imagemin())
     .pipe(gulp.dest(dist_assets_folder + 'images'))
