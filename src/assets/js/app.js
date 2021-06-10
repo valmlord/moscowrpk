@@ -30,7 +30,7 @@ let isMobile = {
 let body=document.querySelector('body');
 if(isMobile.any()){
 		body.classList.add('touch');
-		let arrow=document.querySelectorAll('.menu-list__link-dropdown');
+		let arrow=document.querySelectorAll('.arrow');
 	for(i=0; i<arrow.length; i++){
 			let thisLink=arrow[i].previousElementSibling;
 			let subMenu=arrow[i].nextElementSibling;
@@ -44,4 +44,4 @@ if(isMobile.any()){
 	}
 }else{
 	body.classList.add('mouse');
-}
+}	

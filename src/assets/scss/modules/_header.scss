@@ -3,7 +3,7 @@
   &-line {
     display: none;
   }
-  
+
   .logo {
     &-img {
       padding-top: 27px;
@@ -45,7 +45,7 @@
   }
 
   .menu {
-    font-family: 'Gilroy', serif;
+    font-family: 'Gilroy', sans-serif;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
     left: -100%;
     width: 80%;
     height: 100vh;
-    padding: 0 20px ;
+    padding: 0 20px;
     background-color: white;
     transition: 0.6s all;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
@@ -63,9 +63,9 @@
     &--active {
       left: 0;
     }
-    
+
     &-socials {
-      display: none ;
+      display: none;
     }
 
     &-list {
@@ -92,37 +92,10 @@
           color: $black;
           font-size: 16px;
           font-weight: 800;
-
-          &::after {
-            content: url('../../images/icons/bx_bx-down-arrow.svg');
-            color: $blue;
-            padding-left: 20px;
-          }
         }
       }
     }
 
-    .sub {
-      &-menu {
-        &__list {
-          display: none;
-          font-family: 'Gilroy', sans-serif;
-          font-size: 16px;
-          font-weight: 400;
-          position: relative;
-          background-color: white;
-          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-          padding: 25px 80px 25px 25px;
-          z-index: 9;
-        }
-      }
-    }
-
-    body.mouse .menu-list__item:hover .sub-menu__list {
-      display: block;
-      transition: 0.5s all;
-    }
-    
     .e-mail {
       display: none;
     }
@@ -134,6 +107,54 @@
 
     .bullets {
       display: none;
+    }
+
+    .sub {
+      &-menu {
+        &__list {
+          display: none;
+          font-family: 'Gilroy', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          position: relative;
+          background-color: white;
+          box-shadow: none;
+          padding: 25px 80px 25px 25px;
+          z-index: 9;
+
+          &-link {
+            transition: 0.5s all;
+
+            &:hover {
+              color: $blue;
+            }
+          }
+        }
+
+        &__arrow {
+          &::after {
+            content: url('../../images/icons/bx_bx-down-arrow.svg');
+            color: $blue;
+            padding-left: 15px;
+          }
+        }
+
+        .arrow {
+          display: none;
+          position: absolute;
+          right: 0;
+          top: 12px;
+          width: 0;
+          height: 0;
+          border-top: 10px solid #fff;
+          border-right: 10px solid transparent;
+          border-left: 10px solid transparent;
+        }
+        
+        .arrow.active{
+          transform: rotate(-180deg);
+        }
+      }
     }
   }
 
@@ -156,4 +177,18 @@
       padding: 2px 0 6px 0;
     }
   }
+
+}
+
+body.mouse .menu-list__item:hover .sub-menu__list {
+  display: block;
+  transition: 0.5s all;
+}
+
+body.touch .sub-menu__list.open{
+  display: block;
+}
+
+body.touch .arrow {
+  display: flex;
 }
