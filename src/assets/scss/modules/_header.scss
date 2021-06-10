@@ -117,6 +117,11 @@
         }
       }
     }
+
+    body.mouse .menu-list__item:hover .sub-menu__list {
+      display: block;
+      transition: 0.5s all;
+    }
     
     .e-mail {
       display: none;
