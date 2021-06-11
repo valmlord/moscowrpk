@@ -46,7 +46,7 @@
 
   .menu {
     font-family: 'Gilroy', sans-serif;
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +59,8 @@
     transition: 0.6s all;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
     z-index: 2;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch; // mobile safari
 
     &--active {
       left: 0;
@@ -122,6 +124,9 @@
           background-color: white;
           box-shadow: none;
           z-index: 9;
+          &-item {
+            padding: 10px 0 0 5px;
+          }
 
           &-link {
             transition: 0.5s all;
