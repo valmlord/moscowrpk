@@ -74,7 +74,9 @@
       font-family: 'Gilroy', sans-serif;
 
       &__item {
+        display: flex;
         padding: 15px 0;
+        flex-wrap: wrap;
 
         &:last-child {
           padding-bottom: 0;
@@ -119,11 +121,11 @@
           position: relative;
           background-color: white;
           box-shadow: none;
-          padding: 25px 80px 25px 25px;
           z-index: 9;
 
           &-link {
             transition: 0.5s all;
+            color: $black;
 
             &:hover {
               color: $blue;
@@ -180,13 +182,15 @@
 
 }
 
-body.mouse .menu-list__item:hover .sub-menu__list {
-  display: block;
+body.touch .menu-list__item:hover .sub-menu__list {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
   transition: 0.5s all;
 }
 
 body.touch .sub-menu__list.open{
-  display: block;
+  display: flex;
 }
 
 body.touch .arrow {
