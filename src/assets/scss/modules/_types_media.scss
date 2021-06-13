@@ -1,0 +1,14 @@
+@media (min-width: 375px) {
+    .types {
+         &-item {
+             &__price {
+                 top: 147px;
+                 left: 17%;
+                 font-size: 16px;
+             }
+             &__description {
+                 font-size: 16px;
+             }
+         }
+    }
+}
