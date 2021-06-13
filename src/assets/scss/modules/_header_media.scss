@@ -26,6 +26,7 @@
       display: flex;
       background-color: $dark-grey;
       width: 100%;
+      margin: 0;
     }
 
     .logo {
@@ -62,12 +63,17 @@
         justify-content: space-between;
         flex-basis: 75%;
         margin-top: 0;
+        &__link {
+          transition: 0.5s all;
+          &:hover {
+            color: $blue;
+          }
+        }
 
         &__item {
           position: relative;
           transition: 0.5s all;
           padding-top: 23px;
-
           &:last-child {
             padding-bottom: 28px;
           }

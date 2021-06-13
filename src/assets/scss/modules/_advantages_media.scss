@@ -1,0 +1,25 @@
+@media (min-width: 375px) {
+    .advantages {
+        &-item {
+            &__description {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .advantages {
+        background-color: transparent;
+        &-items {
+            top: -60px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        &-item {
+            margin-top: 0;
+            width: 33%;
+        }
+    }
+}

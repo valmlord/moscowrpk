@@ -22,6 +22,7 @@
     &-description {
         position: relative;
         font-family: 'Gilroy', sans-serif;
+        max-width: 280px;
         font-size: 14px;
         font-weight: 900;
         margin-top: 42px;
@@ -39,25 +40,6 @@
             left: -20px;
         }
     }
-
-    &-advantages {
-        position: absolute;
-            display: flex;
-            flex-wrap: wrap;
-        &__item {
-            display: flex;
-            align-items: center;
-            width: 50%;
-            margin-top: 22px;
-            &-img {
-                width: 50px;
-            }
-            &-description {
-                font-size: 12px;
-                padding-left: 16px;
-            }
-        }
-    }
 }
 
 .bullets {
@@ -65,7 +47,7 @@
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-between;
-    padding: 33px 20px 0 20px;
+
     &-item {
         display: flex;
         flex-direction: column;
@@ -98,4 +80,8 @@
             } 
         }
     }
+}
+
+.promo .bullets {
+    padding: 33px 20px 0 20px;
 }

@@ -46,7 +46,7 @@
 
   .menu {
     font-family: 'Gilroy', sans-serif;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +105,13 @@
     .phone {
       margin-top: 80px;
       align-items: flex-start;
+      &-link {
+        color: $black;
+        transition: 0.5s all;
+        &:hover {
+          color: $blue;
+        }
+      }
     }
 
     .bullets {
@@ -155,10 +162,6 @@
           border-top: 10px solid #fff;
           border-right: 10px solid transparent;
           border-left: 10px solid transparent;
-        }
-
-        .arrow.active {
-          transform: rotate(-180deg);
         }
       }
     }

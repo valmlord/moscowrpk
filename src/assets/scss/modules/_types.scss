@@ -1,0 +1,51 @@
+.types {
+    &-items {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    &-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Gilroy", sans-serif;
+
+        &__title {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            padding: 5px 20px 10px 20px;
+            min-width: 245px;
+            text-align: center;
+            background: white;
+            font-size: 18px;
+            font-weight: 800;
+            color: $blue;
+        }
+        &__price {
+            position: absolute;
+            text-align: center;
+            top: 140px;
+            left: 18px;
+            font-size: 12px;
+            font-weight: 300;
+            color: white;
+            &-trigger {
+                font-weight: 700;
+            }
+        }
+        &__description {
+            top: -1px;
+            text-align: center;
+            background: $blue;
+            color: white;
+            font-size: 12px;
+            width: 100%;
+            padding: 10px 0 16px 0;
+            border: none;
+            box-sizing: border-box;
+        }
+    }
+}
