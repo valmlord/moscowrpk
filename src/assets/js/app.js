@@ -1,8 +1,8 @@
 // HAMBURGER
 
 const menu = document.querySelector(".menu"),
-      menuItem = document.querySelectorAll(".menu-list__link"),
-      hamburger = document.querySelector(".hamburger");
+  menuItem = document.querySelectorAll(".menu-list__link"),
+  hamburger = document.querySelector(".hamburger");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger--active"),
@@ -19,29 +19,57 @@ menuItem.forEach((item) => {
 // DROPDOWN SUBMENU
 
 let isMobile = {
-	Android: function() {return navigator.userAgent.match(/Android/i);},
-	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
-	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
-	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
-	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
-	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+  Android: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function () {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function () {
+    return (
+      isMobile.Android() ||
+      isMobile.BlackBerry() ||
+      isMobile.iOS() ||
+      isMobile.Opera() ||
+      isMobile.Windows()
+    );
+  },
 };
 
-let body=document.querySelector('body');
-if(isMobile.any()){
-		body.classList.add('touch');
-		let arrow=document.querySelectorAll('.arrow');
-	for(i=0; i<arrow.length; i++){
-			let thisLink=arrow[i].previousElementSibling;
-			let subMenu=arrow[i].nextElementSibling;
-			let thisArrow=arrow[i];
+let body = document.querySelector("body");
+if (isMobile.any()) {
+  body.classList.add("touch");
+  let arrow = document.querySelectorAll(".arrow");
+  for (i = 0; i < arrow.length; i++) {
+    let thisLink = arrow[i].previousElementSibling;
+    let subMenu = arrow[i].nextElementSibling;
+    let thisArrow = arrow[i];
 
-			thisLink.classList.add('parent');
-		arrow[i].addEventListener('click', function(){
-			subMenu.classList.toggle('open');
-			thisArrow.classList.toggle('active');
-		});
-	}
-}else{
-	body.classList.add('mouse');
-}	
+    thisLink.classList.add("parent");
+    arrow[i].addEventListener("click", function () {
+      subMenu.classList.toggle("open");
+      thisArrow.classList.toggle("active");
+    });
+  }
+} else {
+  body.classList.add("mouse");
+}
+
+// INCLUDES DROPDOWN
+
+const includesTypeBtn = document.querySelectorAll(".includes-type"),
+	    includesTypeList = document.querySelectorAll(".includes-type__services");
+
+includesTypeBtn.addEventListener("click", () => {
+  includesTypeBtn.classList.toggle("includes-type--active");
+	includesTypeList.classList.toggle("includes-type__services--active");
+});
