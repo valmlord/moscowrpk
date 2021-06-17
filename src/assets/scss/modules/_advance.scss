@@ -1,0 +1,29 @@
+.advance {
+    background: url('../../images/advance/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-items {
+        display: flex;
+        flex-direction: column;
+    }
+    &-item {
+        display: flex;
+        flex-direction: row;
+        margin: 15px 0;
+        &:first-child {
+            margin-top: 0;
+        }
+        &__number {
+            font-size: 50px;
+            color: $blue;
+            font-weight: 700;
+            padding-right: 10px;
+            line-height: 1;
+            min-width: 67px; 
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+    }
+}
