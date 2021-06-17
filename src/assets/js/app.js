@@ -1,4 +1,17 @@
+import tabs from "./modules/tabs";
 import "./modules/slider";
+
+window.addEventListener("DOMContentLoaded", () => {
+  "use strict";
+
+   tabs(
+    ".portfolio-tabs",
+    ".portfolio-tab",
+    ".portfolio-content",
+    "portfolio-tab_active"
+  ); 
+});
+
 // HAMBURGER
 
 const menu = document.querySelector(".menu"),
@@ -17,8 +30,6 @@ menuItem.forEach((item) => {
     menu.classList.toggle("menu--active");
   });
 });
-
-
 
 // DROPDOWN SUBMENU
 
@@ -67,4 +78,3 @@ if (isMobile.any()) {
 } else {
   body.classList.add("mouse");
 }
- 

@@ -1,0 +1,65 @@
+.portfolio {
+    &-inner {
+        position: relative;
+    }
+    &-tabs {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 219px;
+    }
+    &-tab {
+        margin-top: -8px;
+        &:nth-child(2) {
+            padding: 0 10px;
+        }
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-slider {
+        min-height: 225px;
+    }
+
+    &-description {
+        border-left: 3px solid $blue;
+        margin-top: 100px;
+        &__title {
+            padding-left: 28px;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        &__info {
+            padding-left: 28px;
+            display: flex;
+            flex-direction: column;
+            &-item {
+                margin-top: 13px;
+                font-weight: 700;
+                font-size: 14px;
+            }
+            &-value {
+                font-size: 14px;
+            }
+        }
+    }
+
+    &-offer {
+        padding-left: 28px;
+        &__title {
+            font-size: 18px;
+            font-weight: 800;
+            margin-top: 13px;
+        }
+
+        &__descr {
+            margin-top: 18px;
+            font-size: 14px;
+        }
+    }
+}
+
