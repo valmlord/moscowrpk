@@ -1,11 +1,13 @@
+import "./modules/slider";
 // HAMBURGER
 
 const menu = document.querySelector(".menu"),
   menuItem = document.querySelectorAll(".menu-list__link"),
   hamburger = document.querySelector(".hamburger");
 
+
 hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("hamburger--active"),
+  hamburger.classList.toggle("hamburger--active");
     menu.classList.toggle("menu--active");
 });
 
@@ -15,6 +17,8 @@ menuItem.forEach((item) => {
     menu.classList.toggle("menu--active");
   });
 });
+
+
 
 // DROPDOWN SUBMENU
 
@@ -63,13 +67,4 @@ if (isMobile.any()) {
 } else {
   body.classList.add("mouse");
 }
-
-// INCLUDES DROPDOWN
-
-const includesTypeBtn = document.querySelectorAll(".includes-type"),
-	    includesTypeList = document.querySelectorAll(".includes-type__services");
-
-includesTypeBtn.addEventListener("click", () => {
-  includesTypeBtn.classList.toggle("includes-type--active");
-	includesTypeList.classList.toggle("includes-type__services--active");
-});
+ 

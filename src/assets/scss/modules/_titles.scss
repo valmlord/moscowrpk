@@ -2,7 +2,13 @@
     font-family: "Gilroy", sans-serif;
     font-size: 22px;
     font-weight: 800;
-    &-types, &-includes {
+    &-types {
         margin: 52px 0;
+    }
+    &-includes {
+        margin-bottom: 51px;
+    }
+    &-portfolio {
+        margin: 71px 0 40px 0;
     }
 }
