@@ -1,5 +1,6 @@
 import tabs from "./modules/tabs";
 import "./modules/slider";
+import "./modules/accordion";
 
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
@@ -78,3 +79,4 @@ if (isMobile.any()) {
 } else {
   body.classList.add("mouse");
 }
+
