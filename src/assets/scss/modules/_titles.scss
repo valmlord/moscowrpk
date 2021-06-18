@@ -37,4 +37,13 @@
         margin-top: 79px;
         padding-top: 49px;
     }
+
+    &-audit {
+        margin-top: 33px;
+        &__highlighted {
+            font-size: 40px;
+            color: $blue;
+            display: block;
+        }
+    }
 }

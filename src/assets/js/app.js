@@ -1,5 +1,6 @@
 import tabs from "./modules/tabs";
 import "./modules/slider";
+import "./modules/gsap";
 import "./modules/accordion";
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -31,6 +32,7 @@ menuItem.forEach((item) => {
     menu.classList.toggle("menu--active");
   });
 });
+
 
 // DROPDOWN SUBMENU
 
@@ -79,4 +81,3 @@ if (isMobile.any()) {
 } else {
   body.classList.add("mouse");
 }
-
