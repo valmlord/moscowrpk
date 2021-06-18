@@ -1,0 +1,24 @@
+.gift {
+    &-info {
+        margin-top: 28px;
+        font-size: 22px;
+    }
+    &-list {
+        &__item {
+            position: relative;
+            margin-top: 12px;
+            font-size: 18px;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                content: url('../../images/icons/bx_bx-right-arrow.svg');
+                left: 0;
+ 
+            }
+        }
+    }
+
+    &-img {
+        margin-top: 73px;
+    }
+}

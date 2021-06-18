@@ -1,0 +1,23 @@
+.materials {
+    &-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-item {
+        &__img {
+            display: block;
+            width: 120px;
+            height: auto;
+            margin-top: 15px;
+            &:first-child {
+                margin-top: 0;
+            }
+            &:nth-child(2) {
+                height: 30px;
+                margin-top: 0;
+            }
+        }
+    }
+}

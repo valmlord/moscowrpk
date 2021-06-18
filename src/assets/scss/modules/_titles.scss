@@ -14,4 +14,23 @@
     &-advance {
         margin: 89px 0 40px 0;
     }
+
+    &-gift {
+        margin-top: 75px;
+        font-size: 36px;
+        &__highlighted {
+            color: $blue;
+            display: block;
+            font-size: 50px;
+            line-height: 0.5;
+        }
+    }
+
+    &-materials {
+        margin: 79px 0 40px 0;
+    }
+
+    &-reviews {
+        margin-top: 79px;
+    }
 }
