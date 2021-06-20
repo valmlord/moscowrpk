@@ -39,4 +39,15 @@
         padding: 24px 30px;
         border-radius: 10px;
     }
+    &-prev, &-next {
+        
+        color: $black;
+        display: inline-block;
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    &-prev{
+        background: #EFEFEF;
+    }
 }
