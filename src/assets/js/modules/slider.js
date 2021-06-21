@@ -13,8 +13,7 @@ $(document).ready(function(){
     $('.mockup-reviews__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
+        autoplay: false,
         arrows: true,
         appendArrows: ('.mockup-reviews__slider-nav'),
         prevArrow: '<button id="prev" type="button" class="btn btn-prev"><span class="icon-prev"></span></button>',

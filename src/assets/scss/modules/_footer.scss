@@ -1,0 +1,56 @@
+.footer {
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    &-copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 46px;
+    }
+
+    .logo {
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        margin-top: 44px;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        &-link {
+            color: $black;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        &-workhours {
+            font-size: 16px;
+            font-weight: normal;
+        }
+    }
+    .e-mail {
+        margin-top: 18px;
+        color: $black;
+        margin-right: 23%;
+    }
+
+    .socials {
+        display: flex;
+        align-self: center;
+        margin-top: 33px;
+        &-link {
+            font-size: 30px;
+            color: $grey;
+            &:nth-child(2) {
+                padding: 0 23px;
+            }
+        }
+    }
+}

@@ -80,12 +80,12 @@
         }
       }
 
-      &-socials {
+      .socials {
         display: flex;
         flex-basis: 25%;
         font-size: 25px;
 
-        &__link {
+        &-link {
           color: #868686;
           transition: 0.5s all;
 
