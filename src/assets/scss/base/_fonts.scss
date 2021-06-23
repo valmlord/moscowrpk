@@ -152,11 +152,11 @@
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../../fonts/icomoon.eot?7i9dow');
-    src:  url('../../fonts/icomoon.eot?7i9dow#iefix') format('embedded-opentype'),
-      url('../../fonts/icomoon.ttf?7i9dow') format('truetype'),
-      url('../../fonts/icomoon.woff?7i9dow') format('woff'),
-      url('../../fonts/icomoon.svg?7i9dow#icomoon') format('svg');
+    src:  url('../../fonts/icomoon.eot?vs5nnc');
+    src:  url('../../fonts/icomoon.eot?vs5nnc#iefix') format('embedded-opentype'),
+      url('../../fonts/icomoon.ttf?vs5nnc') format('truetype'),
+      url('../../fonts/icomoon.woff?vs5nnc') format('woff'),
+      url('../../fonts/icomoon.svg?vs5nnc#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -177,13 +177,19 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-right-arrow:before {
+    content: "\e905";
+    color: #3f72af;
+  }
+  .icon-ellipse:before {
+    content: "\e907";
+    color: #17b5f9;
+  }
   .icon-prev:before {
     content: "\e900";
-    color: #fff;
   }
   .icon-next:before {
     content: "\e901";
-    color: #fff;
   }
   .icon-facebook:before {
     content: "\e902";
@@ -194,13 +200,9 @@
   .icon-whatsapp:before {
     content: "\e904";
   }
-  .icon-circle:before {
-    content: "\e905";
-  }
   .icon-down-arrow:before {
     content: "\e906";
   }
-  
   
 
 

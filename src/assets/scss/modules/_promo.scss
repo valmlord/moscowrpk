@@ -65,13 +65,12 @@
             font-family: 'Gilroy', sans-serif;
             &:before {
                 position: absolute;
-                top: -1px;
+                top: 9px;
                 left: -20px;
                 content: "●";
                 color: $sky;
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
+                font-weight: normal;
+                font-size: 12px;
             }
             &-description {
                 font-size: 16px;
